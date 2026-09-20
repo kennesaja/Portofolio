@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2547ed">
+  <meta name="description" content="Used Car Analysis by Kennes Jansen: Excel data preparation, exploratory analysis, and a Tableau dashboard built around 8,506 vehicle listings.">
+  <title>Used Car Analysis — Kennes Jansen</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="wordmark" href="../index.html" aria-label="Kennes Jansen, home"><span class="monogram" aria-hidden="true">KJ<span>.</span></span><span class="wordmark-name">Kennes Jansen</span></a>
+    <nav aria-label="Main navigation"><a href="../index.html#work">All projects</a><a href="../index.html#about">About</a></nav>
+    <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+  </div></header>
+
+  <main id="main" class="case-study page-width">
+    <a class="case-back" href="../index.html#project-used-cars"><span aria-hidden="true">←</span> Back to projects</a>
+    <header class="case-intro">
+      <p class="eyebrow">DATA VISUALIZATION / BUSINESS ANALYTICS</p>
+      <h1 class="case-title">Used Car Analysis<span class="blue">.</span></h1>
+      <p class="case-lead">Exploring asking prices across vehicle segments.</p>
+      <p class="case-description">An individual coursework project combining data preparation in Excel, exploratory analysis, and a Tableau dashboard for comparing vehicle listings by brand, model year, mileage, and other characteristics.</p>
+      <div class="case-actions"><a class="button button-dark" href="https://public.tableau.com/views/ProjectDataVisualization_KennesJansen_2802484804/FinalDashboard-UsedCarMarketAnalytics" target="_blank" rel="noopener noreferrer">Open in Tableau <span aria-hidden="true">↗</span></a><a class="case-text-link" href="https://youtu.be/TTq8LoFNTxk" target="_blank" rel="noopener noreferrer">Watch the presentation ↗</a><a class="case-text-link" href="#dashboard">View dashboard images ↓</a></div>
+    </header>
+    <dl class="case-facts">
+      <div><dt>Project context</dt><dd>Business Analytics track · LB11</dd></div>
+      <div><dt>My work</dt><dd>Data preparation, EDA, and dashboard design</dd></div>
+      <div><dt>Tools</dt><dd>Microsoft Excel · Tableau</dd></div>
+      <div><dt>Supplied Excel dataset</dt><dd>8,506 listings · 38 columns</dd></div>
+    </dl>
+
+    <section class="case-overview" aria-labelledby="question-title">
+      <div><p class="eyebrow">THE ANALYTICAL QUESTION</p><h2 id="question-title">How do asking prices<br>vary across listings?</h2></div>
+      <div class="case-prose"><p>The project uses the Cars Raw Dataset to explore listing prices alongside brand, model year, mileage, vehicle condition, fuel type, drivetrain, location, and deal category. The intended audience includes car buyers, dealership managers, and automotive analysts comparing vehicle segments.</p><p>I prepared the data in Excel, developed exploratory views, and assembled the Tableau dashboard. The submitted workbook contains 11 worksheets: four KPI views, four dashboard charts, and three exploratory charts, combined with a dashboard and a brand-selection action.</p><p class="case-stage">The analysis describes the supplied listing sample. Prices are asking prices in USD, and model years do not represent transaction dates.</p></div>
+    </section>
+
+    <section class="case-gallery-section" id="dashboard" aria-labelledby="dashboard-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DASHBOARD</p><h2 id="dashboard-title">A summary with room to explore.</h2></div><p>Four KPI cards and four charts connect the overall sample to vehicle segments.</p></div>
+      <figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/dashboard.png" target="_blank" rel="noopener" aria-label="Open Used Car Market Analytics Dashboard at its original size"><img src="../assets/projects/used-car-analysis/dashboard.png" alt="Original Tableau dashboard with listing count, average mileage, price and rating, a brand ranking, state map, heatmap, and box plot." width="1659" height="857" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">01</span><div><h3>Used Car Market Analytics Dashboard</h3><p>Original screenshot from the report. Its Year filter is set to model years 2005–2022, showing 8,489 listings, average price $39,982, average mileage 37,014, and average rating 4.70/5. The full Excel source contains 8,506 listings across model years 2001–2022.</p></div></figcaption>
+    </figure>
+      <div class="case-actions"><a class="button button-dark" href="https://public.tableau.com/views/ProjectDataVisualization_KennesJansen_2802484804/FinalDashboard-UsedCarMarketAnalytics" target="_blank" rel="noopener noreferrer">Explore in Tableau <span aria-hidden="true">↗</span></a><a class="case-text-link" href="https://youtu.be/TTq8LoFNTxk" target="_blank" rel="noopener noreferrer">Watch the walkthrough ↗</a></div>
+      <div class="design-groups"><details class="design-disclosure"><summary><span><strong>Inspect the dashboard charts</strong><small>Brand ranking, state map, fuel–drivetrain heatmap, and deal-type distributions</small></span><span class="plus" aria-hidden="true"></span></summary><div class="design-disclosure-body"><div class="case-gallery"><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/brand-prices.png" target="_blank" rel="noopener" aria-label="Open Top 10 brands by average price at its original size"><img src="../assets/projects/used-car-analysis/brand-prices.png" alt="Tableau bar chart ranking Lamborghini, Ferrari, Bentley, Porsche, Tesla, and other brand categories by average listing price." width="1919" height="971" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">02</span><div><h3>Top 10 brands by average price</h3><p>Average asking price supports comparisons between brand categories. Some groups contain few listings, so the ranking should be interpreted alongside sample size.</p></div></figcaption>
+    </figure><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/state-map.png" target="_blank" rel="noopener" aria-label="Open Vehicle listings by state at its original size"><img src="../assets/projects/used-car-analysis/state-map.png" alt="Tableau United States map with average listing price encoded in color and listing counts available through the chart." width="1919" height="970" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">03</span><div><h3>Vehicle listings by state</h3><p>The map uses average price for color and includes listing counts and mileage in its tooltip settings. Records without resolved coordinates are excluded from the map.</p></div></figcaption>
+    </figure><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/fuel-drivetrain.png" target="_blank" rel="noopener" aria-label="Open Fuel type and drivetrain at its original size"><img src="../assets/projects/used-car-analysis/fuel-drivetrain.png" alt="Tableau heatmap comparing fuel types and drivetrains, with average price represented by color and listing counts printed in the cells." width="1919" height="963" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">04</span><div><h3>Fuel type and drivetrain</h3><p>Color represents average price; the numbers inside the cells are listing counts. This keeps group size visible when comparing vehicle configurations.</p></div></figcaption>
+    </figure><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/deal-type-prices.png" target="_blank" rel="noopener" aria-label="Open Price distribution by deal type at its original size"><img src="../assets/projects/used-car-analysis/deal-type-prices.png" alt="Tableau box plots for Fair, Good, Great, and Not Available deal categories, showing price spread and high-price outliers." width="1919" height="995" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">05</span><div><h3>Price distribution by deal type</h3><p>Box plots reveal the spread within each category. A deal label alone does not establish affordability or equivalent vehicle characteristics.</p></div></figcaption>
+    </figure></div></div></details></div>
+    </section>
+
+    <section class="case-gallery-section" id="preparation" aria-labelledby="preparation-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DATA PREPARATION</p><h2 id="preparation-title">Make the fields comparable.</h2></div><p>Six cleaned fields extend the 32 original columns in the supplied Excel file.</p></div>
+      <div class="case-feature-grid">
+        <article><span class="eyebrow">01 / RECORDS</span><h3>Remove duplicate rows</h3><p>The report documents 9,379 original rows and the removal of 872 duplicates, leaving 8,507 at that stage. The final Excel file supplied with this project contains 8,506 rows.</p></article>
+        <article><span class="eyebrow">02 / NUMBERS</span><h3>Prepare price and mileage</h3><p>Price_Clean removes currency formatting for numeric analysis; Mileage_Clean provides a numeric mileage field. Three “Not Priced” records still have blank cleaned prices and are excluded from price averages.</p></article>
+        <article><span class="eyebrow">03 / CATEGORIES</span><h3>Standardize vehicle attributes</h3><p>Cleaned condition, fuel, drivetrain, and deal fields consolidate inconsistent labels. Examples include Certified Pre-Owned, full drivetrain names, and Not Available for missing deal categories.</p></article>
+        <article><span class="eyebrow">04 / TABLEAU FIELDS</span><h3>Set useful analytical scales</h3><p>The workbook derives Consumer Rating Clean as ConsumerRating / 10 and defines $10,000 price bins. These calculated fields are separate from the 38 columns in the Excel source.</p></article>
+      </div>
+      <div class="design-groups"><details class="design-disclosure"><summary><span><strong>Understand the dataset and screenshot counts</strong><small>The original screenshot uses a narrower model-year filter</small></span><span class="plus" aria-hidden="true"></span></summary><div class="design-disclosure-body">
+        <div class="database-table-wrap" role="region" aria-label="Source and screenshot data scope" tabindex="0"><table class="database-table"><caption>Counts and price averages reconciled from the supplied Excel data</caption><thead><tr><th scope="col">Scope</th><th scope="col">Model years</th><th scope="col">Listings</th><th scope="col">Numeric prices</th><th scope="col">Average price</th></tr></thead><tbody><tr><td>Full Excel source</td><td>2001–2022</td><td>8,506</td><td>8,503</td><td>$39,922</td></tr><tr><td>Report screenshot filter</td><td>2005–2022</td><td>8,489</td><td>8,486</td><td>$39,982</td></tr></tbody></table></div>
+        <p class="preview-caption">The report screenshot covers model years 2005–2022. The supplied Tableau workbook saves a 2001–2022 year range, so its current view may differ from the screenshot. Price averages exclude the three blank cleaned prices; they are not treated as zero.</p>
+      </div></details></div>
+    </section>
+
+    <section class="case-gallery-section" id="findings" aria-labelledby="findings-title">
+      <div class="case-section-heading"><div><p class="eyebrow">EXPLORATORY ANALYSIS</p><h2 id="findings-title">Read the patterns in context.</h2></div><p>Three exploratory charts support the report's interpretation.</p></div>
+      <div class="case-feature-grid">
+        <article><span class="eyebrow">MILEAGE</span><h3>Higher mileage, generally lower prices</h3><p>The scatter plot shows a negative association between usage and asking price, with substantial variation across listings.</p></article>
+        <article><span class="eyebrow">PRICE DISTRIBUTION</span><h3>A concentrated range and a long tail</h3><p>Most valid prices fall in the $20,000–$50,000 range. A smaller group of expensive listings stretches the distribution upward.</p></article>
+        <article><span class="eyebrow">MODEL YEAR</span><h3>Newer models tend to cost more</h3><p>Average asking prices generally rise across newer model years. This comparison reflects the vehicles in each group, rather than market price changes over calendar time.</p></article>
+        <article><span class="eyebrow">SEGMENT COMPARISON</span><h3>Look beyond a single label</h3><p>Brand averages, fuel–drivetrain combinations, and deal-type distributions provide different views. Group size and vehicle mix matter when interpreting each comparison.</p></article>
+      </div>
+      <div class="design-groups"><details class="design-disclosure"><summary><span><strong>View the exploratory charts</strong><small>Mileage–price scatter plot, price histogram, and model-year comparison</small></span><span class="plus" aria-hidden="true"></span></summary><div class="design-disclosure-body"><div class="case-gallery"><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/mileage-price.png" target="_blank" rel="noopener" aria-label="Open Mileage and listing price at its original size"><img src="../assets/projects/used-car-analysis/mileage-price.png" alt="Tableau scatter plot of mileage against listing price, colored by used or certified pre-owned condition, with downward trend lines." width="1919" height="946" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">06</span><div><h3>Mileage and listing price</h3><p>The report identifies a negative association between mileage and asking price. The relationship describes this sample and does not isolate the effects of brand, model year, or other characteristics.</p></div></figcaption>
+    </figure><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/price-distribution.png" target="_blank" rel="noopener" aria-label="Open Listing price distribution at its original size"><img src="../assets/projects/used-car-analysis/price-distribution.png" alt="Tableau histogram with ten-thousand-dollar price bins and many listings in the twenty-to-fifty-thousand-dollar range." width="1919" height="969" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">07</span><div><h3>Listing price distribution</h3><p>The histogram uses $10,000 bins. Most valid prices in the supplied data fall between $20,000 and $50,000, with a smaller high-price tail.</p></div></figcaption>
+    </figure><figure class="case-figure">
+      <a class="case-image-link" href="../assets/projects/used-car-analysis/model-year-prices.png" target="_blank" rel="noopener" aria-label="Open Average price by model year at its original size"><img src="../assets/projects/used-car-analysis/model-year-prices.png" alt="Tableau line chart of average listing price by vehicle model year from 2001 through 2022." width="1919" height="996" loading="lazy" decoding="async"></a>
+      <figcaption><span class="case-figure-number">08</span><div><h3>Average price by model year</h3><p>Newer model years generally have higher average asking prices in this sample. Year describes the vehicle model year; it is not a transaction date or a measure of sales growth over time.</p></div></figcaption>
+    </figure></div></div></details></div>
+    </section>
+
+    <section class="case-gallery-section" aria-labelledby="interaction-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DASHBOARD INTERACTION</p><h2 id="interaction-title">Move between segments.</h2></div><p>Controls and actions documented in the Tableau workbook.</p></div>
+      <div class="database-table-wrap" role="region" aria-label="Tableau controls and their scope" tabindex="0"><table class="database-table analytics-controls"><caption>Workbook controls</caption><thead><tr><th scope="col">Control</th><th scope="col">Purpose and scope</th></tr></thead><tbody>
+        <tr><td>Fuel type</td><td>Filter the dashboard using standardized fuel categories.</td></tr>
+        <tr><td>Model year</td><td>Select a vehicle model-year range.</td></tr>
+        <tr><td>Vehicle condition</td><td>Compare Used and Certified Pre-Owned listings.</td></tr>
+        <tr><td>Brand selection</td><td>Select a bar to filter the map, heatmap, and deal-type chart. The action excludes the KPI cards and the brand ranking.</td></tr>
+        <tr><td>Hover details</td><td>Inspect configured values such as average price, listing count, and vehicle characteristics.</td></tr>
+      </tbody></table></div>
+      <p class="preview-caption">Images on this page preserve the submitted report. The Tableau and presentation buttons use the links supplied in that report.</p>
+    </section>
+
+    <section class="case-overview case-technical" aria-labelledby="limits-title">
+      <div><p class="eyebrow">INTERPRETATION</p><h2 id="limits-title">Keep the sample<br>and scope visible.</h2></div>
+      <div class="case-prose"><p>These findings describe listing prices in a specific dataset. The sample is not a measure of completed sales, and associations do not establish causation. Some brand categories contain very few records, which can make their averages sensitive to individual listings.</p><p>Missing prices are kept separate from zero values. The map excludes unresolved coordinates, and the model-year comparison describes vehicle age groups rather than a sales timeline.</p><a class="source-link" href="https://www.kaggle.com/datasets/ahmedgmy/cars-raw-dataset" target="_blank" rel="noopener noreferrer">Dataset source listed in the report: Cars Raw Dataset ↗</a></div>
+    </section>
+    <div class="case-next"><p>Explore more of my design, data, and systems projects.</p><a class="button button-dark" href="../index.html#work">Back to all projects <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="../index.html">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

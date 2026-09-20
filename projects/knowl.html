@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2547ed">
+  <meta name="description" content="Knowl Online, a Programming for Business group project for elementary learning, course materials, quizzes, and learning history using PHP and MariaDB.">
+  <title>Knowl Online — Kennes Jansen</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="../index.html" aria-label="Kennes Jansen, home"><span class="monogram" aria-hidden="true">KJ<span>.</span></span><span class="wordmark-name">Kennes Jansen</span></a>
+      <nav aria-label="Main navigation"><a href="../index.html#work">All projects</a><a href="../index.html#about">About</a></nav>
+      <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main" class="case-study page-width">
+    <a class="case-back" href="../index.html#project-knowl"><span aria-hidden="true">←</span> Back to projects</a>
+    <header class="case-intro">
+      <p class="eyebrow">PROGRAMMING FOR BUSINESS / EDUCATION</p>
+      <h1 class="case-title">Knowl Online<span class="blue">.</span></h1>
+      <p class="case-lead">Choose a lesson. Practice. Learn from feedback.</p>
+      <p class="case-description">A group coursework application for elementary school learning, connecting grade selection, lesson resources, quizzes, and learning history in one website.</p>
+      <div class="case-actions"><a class="button button-dark" href="#interface-preview">Explore the learning flow <span aria-hidden="true">↓</span></a><a class="case-text-link" href="#features">See project features</a></div>
+    </header>
+
+    <dl class="case-facts">
+      <div><dt>Course</dt><dd>Programming for Business</dd></div>
+      <div><dt>Project context</dt><dd>Kelompok 6 · Group coursework</dd></div>
+      <div><dt>Application</dt><dd>PHP · MySQLi · HTML · CSS</dd></div>
+      <div><dt>Database</dt><dd>MariaDB · Four tables</dd></div>
+    </dl>
+
+    <section class="case-overview" aria-labelledby="context-title">
+      <div><p class="eyebrow">PROJECT SCOPE</p><h2 id="context-title">A learning path<br>with room to practice.</h2></div>
+      <div class="case-prose">
+        <p>Knowl Online is designed for Indonesian elementary school students. Its grade selector covers Kelas 1–6, with subject pages that connect descriptions, video links, module links, and quizzes. The project's stated educational focus is SDG 4: Quality Education.</p>
+        <p>The PHP application includes registration and login, multiple-choice quizzes, score calculation, explanations for incorrect answers, and a history of quiz attempts. Administrators have separate pages for adding lessons and questions.</p>
+        <p class="case-stage">Group coursework. The previews below follow the Grade 1 mathematics content supplied with the project; they do not represent a complete curriculum or a deployed learning service.</p>
+      </div>
+    </section>
+
+    <section class="case-gallery-section" id="interface-preview" aria-labelledby="preview-title">
+      <div class="case-section-heading"><div><p class="eyebrow">INTERFACE PREVIEW</p><h2 id="preview-title">Follow a lesson.</h2></div><p>Explore the student flow, then see the question form used by administrators.</p></div>
+      <div class="preview-panel">
+        <nav class="preview-nav" aria-label="Choose a Knowl Online interface preview">
+          <a href="../previews/knowl/home.html" target="knowl-preview">Choose grade</a>
+          <a href="../previews/knowl/subjects.html" target="knowl-preview">Subjects</a>
+          <a href="../previews/knowl/lesson.html" target="knowl-preview">Lesson</a>
+          <a href="../previews/knowl/quiz.html" target="knowl-preview">Quiz</a>
+          <a href="../previews/knowl/admin.html" target="knowl-preview">Admin form</a>
+        </nav>
+        <iframe class="preview-frame" name="knowl-preview" title="Knowl Online static interface preview" src="../previews/knowl/home.html" loading="lazy" sandbox="allow-same-origin" referrerpolicy="no-referrer"></iframe>
+      </div>
+      <p class="preview-caption">Static previews adapted from the supplied PHP templates, styling, logo, and sample lesson content. Account actions, external resources, and form submissions are disabled. The PHP and MariaDB backend has not been run as part of this portfolio preview.</p>
+      <div class="preview-open-links" aria-label="Open a full-size interface preview"><a class="source-link" href="../previews/knowl/home.html" target="_blank" rel="noopener">Open student flow ↗</a><a class="source-link" href="../previews/knowl/admin.html" target="_blank" rel="noopener">Open admin form ↗</a></div>
+    </section>
+
+    <section class="case-gallery-section" id="features" aria-labelledby="features-title">
+      <div class="case-section-heading"><div><p class="eyebrow">APPLICATION FEATURES</p><h2 id="features-title">Learn, practice, and review.</h2></div><p>Features identified in the submitted source code.</p></div>
+      <div class="case-feature-grid">
+        <article><span class="eyebrow">01 / DISCOVERY</span><h3>Choose a grade and subject</h3><p>A grade selector for Kelas 1–6 leads to subject cards populated from the course database.</p></article>
+        <article><span class="eyebrow">02 / LESSONS</span><h3>Bring learning resources together</h3><p>Lesson pages combine a description, a video link, a module link, and a route into the associated quiz.</p></article>
+        <article><span class="eyebrow">03 / PRACTICE</span><h3>Review answers and attempts</h3><p>The result page calculates a score on a 100-point scale, identifies incorrect answers, and shows their explanations. Quiz attempts are saved for the student's history page.</p></article>
+        <article><span class="eyebrow">04 / ADMINISTRATION</span><h3>Add lessons and quiz content</h3><p>An administrator dashboard shows user and subject counts. Forms let administrators add lessons and questions with four answer options, a correct answer, and an explanation.</p></article>
+      </div>
+    </section>
+
+    <section class="case-overview case-technical" aria-labelledby="implementation-title">
+      <div><p class="eyebrow">IMPLEMENTATION</p><h2 id="implementation-title">Linking lessons<br>to learning history.</h2></div>
+      <div class="case-prose"><p>PHP handles account sessions, course selection, answer processing, and administrator forms. MySQLi connects the application to the database; the supplied export identifies MariaDB as the database server.</p><p>Four tables organize the application: users, courses, questions, and quiz history. Foreign keys connect questions to courses and recorded quiz attempts to a student and a course. Shared HTML templates and CSS provide the interface.</p></div>
+    </section>
+
+    <div class="case-next"><p>Explore more of my design, data, and systems projects.</p><a class="button button-dark" href="../index.html#work">Back to all projects <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="../index.html">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

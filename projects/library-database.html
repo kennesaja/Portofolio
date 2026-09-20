@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2547ed">
+  <meta name="description" content="Library Database, a Database Fundamentals group project covering library processes, a six-entity data model, and SQL coursework in Oracle APEX and CockroachDB with Apache Cassandra exercises.">
+  <title>Library Database — Kennes Jansen</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="wordmark" href="../index.html" aria-label="Kennes Jansen, home"><span class="monogram" aria-hidden="true">KJ<span>.</span></span><span class="wordmark-name">Kennes Jansen</span></a>
+    <nav aria-label="Main navigation"><a href="../index.html#work">All projects</a><a href="../index.html#about">About</a></nav>
+    <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+  </div></header>
+
+  <main id="main" class="case-study page-width">
+    <a class="case-back" href="../index.html#project-library-database"><span aria-hidden="true">←</span> Back to projects</a>
+    <header class="case-intro">
+      <p class="eyebrow">DATABASE FUNDAMENTALS / DATA MODELING &amp; SQL</p>
+      <h1 class="case-title">Library Database<span class="blue">.</span></h1>
+      <p class="case-lead">Modeling the data behind library services.</p>
+      <p class="case-description">Group coursework connecting membership, books, borrowing, returns, and fines through an entity relationship diagram, a data dictionary, and documented query exercises.</p>
+      <div class="case-actions"><a class="button button-dark" href="#data-model">Explore the data model <span aria-hidden="true">↓</span></a><a class="case-text-link" href="#query-examples">View query examples</a></div>
+    </header>
+    <dl class="case-facts">
+      <div><dt>Course</dt><dd>Database Fundamentals</dd></div>
+      <div><dt>Project context</dt><dd>Kelompok 6 · LC11</dd></div>
+      <div><dt>Data model</dt><dd>Six entities · ERD &amp; data dictionary</dd></div>
+      <div><dt>Database environments</dt><dd>Oracle APEX · CockroachDB · Apache Cassandra</dd></div>
+    </dl>
+
+    <section class="case-overview" aria-labelledby="scope-title">
+      <div><p class="eyebrow">PROJECT SCOPE</p><h2 id="scope-title">From a service process<br>to structured records.</h2></div>
+      <div class="case-prose"><p>The team's process worksheet describes five library activities: registration, borrowing, returns, fine payment, and membership closure. It connects the people involved, required data, procedures, input forms, and intended outputs for each activity.</p><p>The coursework develops a library data model and explores table creation, data changes, filtering, joins, aggregate functions, subqueries, and views. Reports document SQL exercises in Oracle APEX and CockroachDB, alongside separate Apache Cassandra setup and CQL exercises.</p><p class="case-stage">Database design and query coursework. The project materials document the model and exercises; they do not establish a deployed library application.</p></div>
+    </section>
+
+    <section class="case-overview case-technical" aria-labelledby="contribution-title">
+      <div><p class="eyebrow">MY CONTRIBUTION</p><h2 id="contribution-title">Registration planning<br>and individual SQL practice.</h2></div>
+      <div class="case-prose"><p>I am listed as the person responsible for registration in the team's process worksheet. That section covers the registration procedure, student information, verification by library staff, and intended membership outputs.</p><p>My individual submission for sessions 13–14 documents SQL exercises using the library dataset, including column selection, aliases, calculated columns, filtering, sorting, and joins. Two examples from that submission appear below; the remaining examples are identified as group coursework.</p></div>
+    </section>
+
+    <section class="case-gallery-section" id="data-model" aria-labelledby="model-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DATA MODEL</p><h2 id="model-title">Six connected entities.</h2></div><p>The original ERD shows how library records relate to one another.</p></div>
+      <figure class="case-figure database-erd">
+        <a class="case-image-link" href="../assets/projects/library-database/library-erd.jpg" target="_blank" rel="noopener" aria-label="Open the original Library Database ER diagram"><img src="../assets/projects/library-database/library-erd.jpg" alt="Library ER diagram showing Mahasiswa, Keanggotaan, Buku, Peminjaman, Pengembalian, and Denda." width="1150" height="354" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">01</span><div><h3>Library entity relationship diagram</h3><p>Original diagram from the team's ERD document, created with Visual Paradigm. Open the image to inspect its fields and relationships.</p></div></figcaption>
+      </figure>
+      <div class="database-table-wrap" role="region" aria-label="Entity summary from the ERD and data dictionary" tabindex="0"><table class="database-table"><caption>Entity summary from the ERD and data dictionary</caption><thead><tr><th scope="col">Entity</th><th scope="col">Purpose in the model</th><th scope="col">Primary key</th></tr></thead><tbody><tr><td>Mahasiswa</td><td>Student identity, study program, registration date, and status.</td><td>NIM_Mahasiswa</td></tr><tr><td>Keanggotaan</td><td>Membership status and closure date.</td><td>ID_Keanggotaan</td></tr><tr><td>Buku</td><td>Book title, author, publication year, and availability status.</td><td>ID_Buku</td></tr><tr><td>Peminjaman</td><td>Links a student and a book to borrowing and due dates.</td><td>ID_Peminjaman</td></tr><tr><td>Pengembalian</td><td>Records the return associated with a borrowing transaction.</td><td>ID_Pengembalian</td></tr><tr><td>Denda</td><td>Records a fine and its payment status for a borrowing transaction.</td><td>ID_Denda</td></tr></tbody></table></div>
+    </section>
+
+    <section class="case-gallery-section" id="query-examples" aria-labelledby="queries-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DOCUMENTED SQL RESULTS</p><h2 id="queries-title">From a question to a result.</h2></div><p>Open an example to read its query, result, and source.</p></div>
+      <p class="database-evidence-note">Query text and sample results are transcribed from the submitted reports and screenshots. The tables below show documented outputs; these queries have not been executed again for this portfolio.</p>
+      <div class="sql-examples"><details class="sql-example" id="query-catalogue" open>
+      <summary><span class="sql-example-number">01</span><span><strong>Select the book catalogue</strong><small>Individual submission · Oracle APEX</small></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="sql-example-body"><p>Select the title, author, and publication year from the sample book table.</p><pre class="sql-code"><code>SELECT Judul_Buku, Pengarang, Tahun_Terbit
+FROM Buku;</code></pre><div class="database-table-wrap" role="region" aria-label="Documented result · sample data" tabindex="0"><table class="database-table"><caption>Documented result · sample data</caption><thead><tr><th scope="col">JUDUL_BUKU</th><th scope="col">PENGARANG</th><th scope="col">TAHUN_TERBIT</th></tr></thead><tbody><tr><td>Pemrograman Java</td><td>John Doe</td><td>2020</td></tr><tr><td>Database Management</td><td>Jane Smith</td><td>2018</td></tr><tr><td>Machine Learning</td><td>Andrew Ng</td><td>2021</td></tr><tr><td>Data Science</td><td>Jake VanderPlas</td><td>2019</td></tr><tr><td>Cloud Computing</td><td>Thomas Erl</td><td>2022</td></tr></tbody></table></div><p class="sql-source">Source: Kennes Jansen, individual SQL submission, sessions 13–14. Results transcribed from its screenshot.</p></div>
+    </details>
+<details class="sql-example" id="query-calculated-column">
+      <summary><span class="sql-example-number">02</span><span><strong>Calculate and sort a new column</strong><small>Individual submission · Oracle APEX</small></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="sql-example-body"><p>This exercise adds five to each publication year and sorts the results. Perkiraan_Revisi is a calculated sample value, not an actual book revision schedule.</p><pre class="sql-code"><code>SELECT Judul_Buku, Tahun_Terbit,
+       Tahun_Terbit + 5 AS Perkiraan_Revisi
+FROM Buku
+ORDER BY Tahun_Terbit, Perkiraan_Revisi DESC;</code></pre><div class="database-table-wrap" role="region" aria-label="Documented result · sample data" tabindex="0"><table class="database-table"><caption>Documented result · sample data</caption><thead><tr><th scope="col">JUDUL_BUKU</th><th scope="col">TAHUN_TERBIT</th><th scope="col">PERKIRAAN_REVISI</th></tr></thead><tbody><tr><td>Database Management</td><td>2018</td><td>2023</td></tr><tr><td>Data Science</td><td>2019</td><td>2024</td></tr><tr><td>Pemrograman Java</td><td>2020</td><td>2025</td></tr><tr><td>Machine Learning</td><td>2021</td><td>2026</td></tr><tr><td>Cloud Computing</td><td>2022</td><td>2027</td></tr></tbody></table></div><p class="sql-source">Source: Kennes Jansen, individual SQL submission, sessions 13–14. Results transcribed from its screenshot.</p></div>
+    </details>
+<details class="sql-example" id="query-minimum-year">
+      <summary><span class="sql-example-number">03</span><span><strong>Find the earliest publication year</strong><small>Group coursework · Oracle APEX</small></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="sql-example-body"><p>Use MIN to summarize the book table with its earliest recorded publication year.</p><pre class="sql-code"><code>SELECT MIN(Tahun_Terbit) AS tahun_terbit_terlama
+FROM Buku;</code></pre><div class="database-table-wrap" role="region" aria-label="Documented result · sample data" tabindex="0"><table class="database-table"><caption>Documented result · sample data</caption><thead><tr><th scope="col">TAHUN_TERBIT_TERLAMA</th></tr></thead><tbody><tr><td>2018</td></tr></tbody></table></div><p class="sql-source">Source: Kelompok 6 LC11, Library Database report, sessions 21–22. Results transcribed from its screenshot.</p></div>
+    </details>
+<details class="sql-example" id="query-borrowed-books">
+      <summary><span class="sql-example-number">04</span><span><strong>Find books with a borrowing record</strong><small>Group coursework · CockroachDB</small></span><span class="plus" aria-hidden="true"></span></summary>
+      <div class="sql-example-body"><p>An EXISTS subquery checks whether each book has a matching record in Peminjaman.</p><pre class="sql-code"><code>SELECT b.ID_Buku, b.Judul_Buku
+FROM Buku AS b
+WHERE EXISTS (
+    SELECT 1
+    FROM Peminjaman AS p
+    WHERE p.ID_Buku = b.ID_Buku
+);</code></pre><div class="database-table-wrap" role="region" aria-label="Documented result · sample data" tabindex="0"><table class="database-table"><caption>Documented result · sample data</caption><thead><tr><th scope="col">id_buku</th><th scope="col">judul_buku</th></tr></thead><tbody><tr><td>2001</td><td>Pemrograman Java</td></tr><tr><td>2002</td><td>Database Management</td></tr><tr><td>2003</td><td>Machine Learning</td></tr><tr><td>2004</td><td>Data Science</td></tr><tr><td>2005</td><td>Cloud Computing</td></tr></tbody></table></div><p class="sql-source">Source: Kelompok 6 LC11, report for sessions 23–26. Results transcribed from its screenshot.</p></div>
+    </details></div>
+      <a class="source-link" href="../assets/projects/library-database/query-examples.sql" download>Download the four SELECT examples ↓</a>
+    </section>
+
+    <section class="case-gallery-section" aria-labelledby="coverage-title">
+      <div class="case-section-heading"><div><p class="eyebrow">COURSEWORK COVERAGE</p><h2 id="coverage-title">Building database foundations.</h2></div><p>Topics documented across the library case and accompanying assignments.</p></div>
+      <div class="case-feature-grid">
+        <article><span class="eyebrow">01 / STRUCTURE</span><h3>Model and define the data</h3><p>Business process mapping, the ERD, a data dictionary, table definitions, and DDL/DML exercises.</p></article>
+        <article><span class="eyebrow">02 / QUERYING</span><h3>Select and transform records</h3><p>Column selection, aliases, filters, sorting, and single-row functions for text, numbers, and dates.</p></article>
+        <article><span class="eyebrow">03 / RELATIONSHIPS</span><h3>Join and summarize data</h3><p>Join exercises and aggregate queries using COUNT, SUM, MIN, MAX, AVG, GROUP BY, and HAVING.</p></article>
+        <article><span class="eyebrow">04 / REUSE</span><h3>Work with subqueries and views</h3><p>Single-row, multiple-row, and correlated subqueries; EXISTS and NOT EXISTS; and view creation exercises.</p></article>
+      </div>
+    </section>
+    <div class="case-next"><p>Explore more of my design, data, and systems projects.</p><a class="button button-dark" href="../index.html#work">Back to all projects <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="../index.html">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

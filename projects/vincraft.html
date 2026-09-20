@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2547ed">
+  <meta name="description" content="VinCraft Community, a Programming for Business coursework project using PHP and MySQL for content sharing, community interaction, and administration.">
+  <title>VinCraft Community — Kennes Jansen</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="../index.html" aria-label="Kennes Jansen, home"><span class="monogram" aria-hidden="true">KJ<span>.</span></span><span class="wordmark-name">Kennes Jansen</span></a>
+      <nav aria-label="Main navigation"><a href="../index.html#work">All projects</a><a href="../index.html#about">About</a></nav>
+      <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main" class="case-study page-width">
+    <a class="case-back" href="../index.html#project-vincraft"><span aria-hidden="true">←</span> Back to projects</a>
+    <header class="case-intro">
+      <p class="eyebrow">PROGRAMMING FOR BUSINESS / WEB APPLICATION</p>
+      <h1 class="case-title">VinCraft<span class="blue">.</span></h1>
+      <p class="case-lead">A community space to build, share, and explore.</p>
+      <p class="case-description">A PHP and MySQL coursework application for sharing Minecraft creations, discovering posts, and managing community content.</p>
+      <div class="case-actions"><a class="button button-dark" href="#interface-preview">Explore the interface <span aria-hidden="true">↓</span></a><a class="case-text-link" href="#features">See project features</a></div>
+    </header>
+
+    <dl class="case-facts">
+      <div><dt>Course</dt><dd>Programming for Business</dd></div>
+      <div><dt>Server-side language</dt><dd>PHP</dd></div>
+      <div><dt>Database</dt><dd>MySQL · MySQLi</dd></div>
+      <div><dt>Interface</dt><dd>HTML, CSS &amp; JavaScript</dd></div>
+    </dl>
+
+    <section class="case-overview" aria-labelledby="context-title">
+      <div><p class="eyebrow">PROJECT SCOPE</p><h2 id="context-title">From discovering posts<br>to running a community.</h2></div>
+      <div class="case-prose">
+        <p>VinCraft organizes community posts into categories such as Builds, Redstone, News, Tutorial, and Mods. Visitors can browse posts and narrow the collection by title or category.</p>
+        <p>The application distinguishes guests, registered crafters, and administrators. Crafters can publish and edit posts, attach images and video links, and interact through likes, comments, and reports. Administrators have dedicated pages for managing users, categories, posts, and reports.</p>
+        <p class="case-stage">Coursework web application. The previews below illustrate the supplied interface templates with bundled sample content.</p>
+      </div>
+    </section>
+
+    <section class="case-gallery-section" id="interface-preview" aria-labelledby="preview-title">
+      <div class="case-section-heading"><div><p class="eyebrow">INTERFACE PREVIEW</p><h2 id="preview-title">Explore the screens.</h2></div><p>Choose a screen below. Each preview uses the project's styling and images.</p></div>
+      <div class="preview-panel">
+        <nav class="preview-nav" aria-label="Choose a VinCraft interface preview">
+          <a href="../previews/vincraft/home.html" target="vincraft-preview">Home</a>
+          <a href="../previews/vincraft/browse.html" target="vincraft-preview">Browse posts</a>
+          <a href="../previews/vincraft/upload.html" target="vincraft-preview">Upload form</a>
+        </nav>
+        <iframe class="preview-frame" name="vincraft-preview" title="VinCraft static interface preview" src="../previews/vincraft/home.html" loading="lazy" sandbox="allow-same-origin" referrerpolicy="no-referrer"></iframe>
+      </div>
+      <p class="preview-caption">View-only previews adapted from the PHP templates and included sample posts. Account access, filtering, uploads, and database actions are disabled here. The PHP and MySQL backend has not been run as part of this portfolio preview.</p>
+      <div class="preview-open-links" aria-label="Open a full-size interface preview"><a class="source-link" href="../previews/vincraft/home.html" target="_blank" rel="noopener">Open Home ↗</a><a class="source-link" href="../previews/vincraft/browse.html" target="_blank" rel="noopener">Open Browse ↗</a><a class="source-link" href="../previews/vincraft/upload.html" target="_blank" rel="noopener">Open Upload ↗</a></div>
+    </section>
+
+    <section class="case-gallery-section" id="features" aria-labelledby="features-title">
+      <div class="case-section-heading"><div><p class="eyebrow">APPLICATION FEATURES</p><h2 id="features-title">Content and community workflows.</h2></div><p>Features represented in the submitted source code.</p></div>
+      <div class="case-feature-grid">
+        <article><span class="eyebrow">01 / DISCOVERY</span><h3>Browse and filter</h3><p>A homepage with recent posts, plus title search and category filters on the browsing page.</p></article>
+        <article><span class="eyebrow">02 / PUBLISHING</span><h3>Create and edit posts</h3><p>Forms for a post's title, category, description, thumbnail, and optional video link, alongside a personal post list.</p></article>
+        <article><span class="eyebrow">03 / INTERACTION</span><h3>Likes, comments, and reports</h3><p>Post detail pages combine community feedback with a reporting flow for content that needs attention.</p></article>
+        <article><span class="eyebrow">04 / ADMINISTRATION</span><h3>Manage community content</h3><p>Separate management pages for users, categories, posts, and submitted reports.</p></article>
+      </div>
+    </section>
+
+    <section class="case-overview case-technical" aria-labelledby="implementation-title">
+      <div><p class="eyebrow">IMPLEMENTATION</p><h2 id="implementation-title">Connecting the interface<br>to stored data.</h2></div>
+      <div class="case-prose"><p>PHP handles sessions, form processing, and role checks. MySQLi connects the application to a relational database with seven tables: users, categories, posts, comments, likes, resource files, and reports.</p><p>The schema links interactions to their users and posts through foreign keys, with unique user–post pairs for likes and reports. JavaScript supports the report dialogs, while shared navigation, footer, and CSS keep the pages consistent.</p></div>
+    </section>
+
+    <div class="case-next"><p>Explore more of my design, data, and systems projects.</p><a class="button button-dark" href="../index.html#work">Back to all projects <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="../index.html">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

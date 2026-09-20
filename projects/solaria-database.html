@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2547ed">
+  <meta name="description" content="Solaria Database, a DIM academic team case study covering restaurant data modeling, 32 Oracle table definitions, constraints, triggers, and an inventory interface concept.">
+  <title>Solaria Database — Kennes Jansen</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="project-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="wordmark" href="../index.html" aria-label="Kennes Jansen, home"><span class="monogram" aria-hidden="true">KJ<span>.</span></span><span class="wordmark-name">Kennes Jansen</span></a>
+    <nav aria-label="Main navigation"><a href="../index.html#work">All projects</a><a href="../index.html#about">About</a></nav>
+    <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+  </div></header>
+
+  <main id="main" class="case-study page-width">
+    <a class="case-back" href="../index.html#project-solaria-database"><span aria-hidden="true">←</span> Back to projects</a>
+    <header class="case-intro">
+      <p class="eyebrow">DIM / DATABASE DESIGN &amp; MANAGEMENT</p>
+      <h1 class="case-title">Solaria Database<span class="blue">.</span></h1>
+      <p class="case-lead">Connecting the data behind restaurant operations.</p>
+      <p class="case-description">An academic team case study that translates a restaurant business scenario into conceptual and logical models, Oracle table definitions, and database rules.</p>
+      <div class="case-actions"><a class="button button-dark" href="#data-model">Explore the data model <span aria-hidden="true">↓</span></a><a class="case-text-link" href="#sql-examples">Read the SQL examples</a></div>
+    </header>
+    <dl class="case-facts">
+      <div><dt>Course</dt><dd>Data Information Management (DIM)</dd></div>
+      <div><dt>Project context</dt><dd>Kelompok 3 · Academic team project</dd></div>
+      <div><dt>Physical design</dt><dd>32 table definitions in the report</dd></div>
+      <div><dt>Database environment</dt><dd>Oracle · Oracle APEX</dd></div>
+    </dl>
+
+    <section class="case-overview" aria-labelledby="scope-title">
+      <div><p class="eyebrow">PROJECT SCOPE</p><h2 id="scope-title">One model.<br>Connected operations.</h2></div>
+      <div class="case-prose"><p>The team's project, “Penerapan Proses Bisnis Solaria,” uses a restaurant scenario to study how outlets, menu items, recipes, suppliers, inventory, transactions, customers, and staff can share structured data.</p><p>The report follows the database lifecycle from an initial business study through conceptual, logical, and physical design. Its implementation material includes table definitions, constraints, sequences, triggers, and index examples, while the presentation connects the model to interface concepts.</p><p class="case-stage">Academic design and implementation coursework. The interface images show proposed screens; operational benefits and a production deployment are not established by the submitted materials.</p></div>
+    </section>
+
+    <section class="case-gallery-section" aria-labelledby="interface-title">
+      <div class="case-section-heading"><div><p class="eyebrow">INTERFACE CONCEPT</p><h2 id="interface-title">Making inventory visible.</h2></div><p>A mockup connects the data model to a proposed staff workflow.</p></div>
+      <figure class="case-figure">
+        <a class="case-image-link" href="../assets/projects/solaria-database/inventory-mockup.png" target="_blank" rel="noopener" aria-label="Open Inventory status interface concept at its original size"><img src="../assets/projects/solaria-database/inventory-mockup.png" alt="Purple inventory mockup with current stock, expiration dates, and OK, Low, or Expired status labels." width="1058" height="651" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">01</span><div><h3>Inventory status interface concept</h3><p>Original mockup from presentation slide 43. It illustrates stock visibility, status labels, and proposed adjustment and export controls using sample data.</p></div></figcaption>
+      </figure>
+    </section>
+
+    <section class="case-gallery-section" id="data-model" aria-labelledby="model-title">
+      <div class="case-section-heading"><div><p class="eyebrow">DATA MODELING</p><h2 id="model-title">From relationships to records.</h2></div><p>Original diagrams from the group report and presentation.</p></div>
+      <div class="case-gallery">
+        <div class="case-process-grid"><figure class="case-figure">
+        <a class="case-image-link" href="../assets/projects/solaria-database/conceptual-erd.png" target="_blank" rel="noopener" aria-label="Open Conceptual relationship map at its original size"><img src="../assets/projects/solaria-database/conceptual-erd.png" alt="Original conceptual ERD connecting outlets, transactions, customers, menu items, ingredients, staff, and suppliers." width="1002" height="713" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">02</span><div><h3>Conceptual relationship map</h3><p>Original figure from the report. This early overview maps relationships across the restaurant scenario; the later physical design expands the model into 32 table definitions.</p></div></figcaption>
+      </figure><figure class="case-figure">
+        <a class="case-image-link" href="../assets/projects/solaria-database/supply-chain-model.png" target="_blank" rel="noopener" aria-label="Open Supply chain and inventory model at its original size"><img src="../assets/projects/solaria-database/supply-chain-model.png" alt="Logical diagram with PurchaseOrder, PurchaseDetail, Supplier, Warehouse, WarehouseInventory, and Ingredient tables, keys, and attributes." width="847" height="974" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">03</span><div><h3>Supply chain and inventory model</h3><p>Original diagram embedded in presentation slide 20, showing purchasing, suppliers, warehouse stock, and ingredient records. Open the image to inspect its keys and fields.</p></div></figcaption>
+      </figure></div>
+        <figure class="case-figure">
+        <a class="case-image-link" href="../assets/projects/solaria-database/dependency-study.png" target="_blank" rel="noopener" aria-label="Open Dependency and normalization exercise at its original size"><img src="../assets/projects/solaria-database/dependency-study.png" alt="Presentation slide comparing an Outlet structure with a proposed separation into Outlet, Region, and Franchise data." width="1900" height="1069" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">04</span><div><h3>Dependency and normalization exercise</h3><p>Slide 24 documents a dependency exercise around outlet, region, and franchise information. The original slide is preserved as a design exercise.</p></div></figcaption>
+      </figure>
+      </div>
+    </section>
+
+    <section class="case-gallery-section" aria-labelledby="coverage-title">
+      <div class="case-section-heading"><div><p class="eyebrow">PHYSICAL DESIGN</p><h2 id="coverage-title">32 table definitions.</h2></div><p>The report groups operational records through primary keys, foreign keys, and constraints.</p></div>
+      <div class="database-table-wrap" role="region" aria-label="Database scope and example tables" tabindex="0"><table class="database-table"><caption>Coverage of the physical design · selected table names</caption><thead><tr><th scope="col">Operational area</th><th scope="col">Purpose</th><th scope="col">Example tables</th></tr></thead><tbody>
+        <tr><td>Organization</td><td>Regions, franchise partners, and restaurant outlets.</td><td>region, franchise_partner, outlet</td></tr>
+        <tr><td>Menu and purchasing</td><td>Menu items, recipes, ingredients, suppliers, and purchase orders.</td><td>menu_item, recipe_detail, purchase_order</td></tr>
+        <tr><td>Inventory</td><td>Ingredient stock at outlets and warehouses.</td><td>inventory, warehouse, warehouse_inventory</td></tr>
+        <tr><td>Sales and customers</td><td>Transaction lines, payments, membership, and loyalty records.</td><td>transaction_header, transaction_detail, customer</td></tr>
+        <tr><td>People</td><td>Staff, departments, positions, shifts, and attendance.</td><td>staff, shift_schedule, attendance</td></tr>
+        <tr><td>Promotions and support</td><td>Promotion coverage, delivery partners, and maintenance requests.</td><td>promotion_menu, delivery, maintenance_request</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section class="case-gallery-section" id="sql-examples" aria-labelledby="sql-title">
+      <div class="case-section-heading"><div><p class="eyebrow">SELECTED SQL</p><h2 id="sql-title">Rules expressed in code.</h2></div><p>Open each example to inspect an excerpt from the group's physical design.</p></div>
+      <p class="database-evidence-note">These excerpts are reproduced from the submitted report. They illustrate individual design decisions and depend on the surrounding schema. The database has not been executed again for this portfolio.</p>
+      <div class="sql-examples">
+        <details class="sql-example" id="sql-subtotal" open>
+          <summary><span class="sql-example-number">01</span><span><strong>Calculate a transaction line subtotal</strong><small>Oracle PL/SQL · Row trigger</small></span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="sql-example-body"><p>The trigger assigns quantity × unit price before each insert or update. NVL treats a missing input as zero in this calculation.</p><pre class="sql-code" tabindex="0" aria-label="Subtotal trigger SQL"><code>CREATE OR REPLACE TRIGGER trg_td_subtotal_biu
+BEFORE INSERT OR UPDATE ON transaction_detail
+FOR EACH ROW
+BEGIN
+  :NEW.subtotal := NVL(:NEW.quantity,0) * NVL(:NEW.unit_price,0);
+END;
+/</code></pre><figure class="case-figure">
+        <a class="case-image-link" href="../assets/projects/solaria-database/subtotal-trigger.png" target="_blank" rel="noopener" aria-label="Open Documented trigger creation at its original size"><img src="../assets/projects/solaria-database/subtotal-trigger.png" alt="Oracle APEX SQL screenshot showing the subtotal trigger and the message Trigger created." width="719" height="388" loading="lazy" decoding="async"></a>
+        <figcaption><span class="case-figure-number">05</span><div><h3>Documented trigger creation</h3><p>Original screenshot embedded in slide 33. The creation message documents this trigger being created in the submitted environment; the portfolio does not rerun it.</p></div></figcaption>
+      </figure><p class="sql-source">Source: group report, subtotal trigger; presentation, slide 33.</p></div>
+        </details>
+        <details class="sql-example" id="sql-inventory">
+          <summary><span class="sql-example-number">02</span><span><strong>Define inventory records and constraints</strong><small>Oracle SQL · Table definition</small></span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="sql-example-body"><p>The definition links stock to an outlet and ingredient, prevents negative stock values, restricts status labels, and makes each outlet–ingredient pair unique. Status values are constrained here; automatic status calculation is not part of this excerpt.</p><pre class="sql-code" tabindex="0" aria-label="Inventory table SQL"><code>CREATE TABLE inventory (
+  inventory_id      NUMBER(12) PRIMARY KEY,
+  outlet_id         NUMBER(10) NOT NULL,
+  ingredient_id     NUMBER(10) NOT NULL,
+  current_stock     NUMBER(12,4) DEFAULT 0 CHECK (current_stock &gt;= 0),
+  last_restock_date DATE,
+  minimum_required  NUMBER(12,4) DEFAULT 0 CHECK (minimum_required &gt;= 0),
+  expiration_date   DATE,
+  last_checked_by   NUMBER(10),
+  status            VARCHAR2(20) DEFAULT &#x27;OK&#x27; CHECK (status IN (&#x27;OK&#x27;,&#x27;Low&#x27;,&#x27;Expired&#x27;)),
+  CONSTRAINT fk_inv_outlet FOREIGN KEY(outlet_id) REFERENCES outlet(outlet_id),
+  CONSTRAINT fk_inv_ingredient FOREIGN KEY(ingredient_id) REFERENCES ingredient(ingredient_id),
+  CONSTRAINT fk_inv_staff FOREIGN KEY(last_checked_by) REFERENCES staff(staff_id),
+  UNIQUE(outlet_id, ingredient_id)
+);</code></pre><p class="sql-source">Source: group report, inventory table definition. Referenced tables must exist before its foreign keys can be created.</p></div>
+        </details>
+        <details class="sql-example" id="sql-indexes">
+          <summary><span class="sql-example-number">03</span><span><strong>Plan indexes for transaction lookups</strong><small>Oracle SQL · Index examples</small></span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="sql-example-body"><p>The report proposes indexes on outlet, customer, and transaction date. They identify intended lookup paths; no query-speed benchmark is supplied.</p><pre class="sql-code" tabindex="0" aria-label="Transaction index SQL"><code>CREATE INDEX idx_trx_outlet ON transaction_header(outlet_id);
+CREATE INDEX idx_trx_customer ON transaction_header(customer_id);
+CREATE INDEX idx_trx_date ON transaction_header(trx_date);</code></pre><p class="sql-source">Source: group report, index recommendations.</p></div>
+        </details>
+      </div>
+    </section>
+    <div class="case-next"><p>Explore more of my design, data, and systems projects.</p><a class="button button-dark" href="../index.html#work">Back to all projects <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <footer class="site-footer page-width"><a class="wordmark" href="../index.html">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>

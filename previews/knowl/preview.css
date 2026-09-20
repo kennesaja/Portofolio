@@ -1,0 +1,20 @@
+/* Small adaptations for a read-only portfolio preview. Original styling is retained separately. */
+.preview-note{padding:12px 20px;background:#ede7f4;border-bottom:1px solid #d9c9e9;font:12px/1.65 sans-serif;text-align:center;color:#503574}
+.preview-note strong{font-weight:700}
+.preview-inactive{cursor:default;pointer-events:none}
+.nav-links{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;justify-content:flex-end}
+.nav-links a{margin-left:0}
+.nav-links .preview-inactive{font-size:15px;font-weight:700;color:#555}
+.navbar-container{gap:20px}
+fieldset{border:0;padding:0;margin:0;min-width:0}
+button:disabled{cursor:default}
+.preview-back{background:#ccc;margin-bottom:20px;width:auto}
+.resource-buttons{display:flex;gap:10px;margin:20px 0}
+.quiz-question{margin-bottom:30px}
+.option-label{display:block;margin-block:12px}
+.option-label input{margin-right:10px}
+.option-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.admin-navbar{background:#2c3e50;border-bottom:4px solid var(--accent);display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px}
+.admin-navbar h2{color:white;margin:0}
+.admin-navbar .nav-links a{color:#ddd}
+@media(max-width:600px){.navbar-container{align-items:flex-start}.nav-links{gap:10px}.nav-links .preview-inactive{font-size:13px}.resource-buttons{flex-direction:column}.card{padding:24px}.option-grid{grid-template-columns:1fr}.admin-navbar{flex-wrap:wrap}}
