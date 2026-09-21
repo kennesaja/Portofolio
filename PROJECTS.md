@@ -1,34 +1,47 @@
 # Inventaris proyek portofolio Kennes Jansen
 
-Daftar ini memuat 23 proyek dan eksplorasi yang dapat diidentifikasi dari dokumen, pekerjaan yang pernah dibahas, dan posting LinkedIn yang dapat dibaca. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Tahun JusCoffee, VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
+Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
 
 | No. | Proyek | Status pada website | Fokus |
 | --- | --- | --- | --- |
-| 01 | ACCESS | UI/UX prototype | Perencanaan perjalanan, informasi aksesibilitas, dan kebutuhan dukungan bagi pengguna dengan hambatan mobilitas. |
-| 02 | BudgetWise | Excel dashboard | Pendapatan, pengeluaran, transfer, tren bulanan, kategori, dan metode pembayaran. |
+| 01 | Library Database | Database coursework | Proses perpustakaan, ERD enam entitas, kamus data, serta latihan SQL/CQL dan hasil query yang didokumentasikan. |
+| 02 | BudgetWise | Excel dashboard | Presentasi 14 slide, dua screenshot dashboard, dan mockup awal dari PDF yang dipilih Kennes. |
 | 03 | Used Car Analysis | Data visualization | Pembersihan Excel, EDA, dashboard Tableau, delapan screenshot, serta analisis 8.506 listing dengan cakupan filter yang dijelaskan. |
 | 04 | Aqquas | UX design | Aplikasi untuk penghobi akuarium: panduan video, toko perlengkapan, forum, serta galeri wireframe dan dokumentasi UX. |
 | 05 | VinCraft Community | Web application | Website komunitas Minecraft berbasis PHP/MySQL, dengan pencarian, publikasi konten, interaksi, moderasi, dan preview antarmuka statis. |
 | 06 | Knowl Online | Education application | Aplikasi belajar SD dengan pemilihan kelas, materi, kuis, skor dan pembahasan, riwayat belajar, serta formulir admin. |
-| 07 | Library Database | Database coursework | Proses perpustakaan, ERD enam entitas, kamus data, serta latihan SQL/CQL dan hasil query yang didokumentasikan. |
+| 07 | ACCESS | UI/UX prototype | Galeri sembilan layar Figma: preferensi mobilitas, destinasi, pendamping, informasi aksesibilitas, keluarga, dan caregiver. |
 | 08 | Solaria Database | Database case study | Studi kasus DIM: model data operasional restoran, 32 definisi tabel Oracle, constraints, trigger, dan mockup inventaris. |
 | 09 | StSport | Systems analysis & design | Studi kasus ISAD: pemesanan lapangan dan peralatan olahraga, model sistem, serta antarmuka pelanggan/staf/admin. |
-| 10 | SnapCash | Project plan | Perencanaan POS dan pengelolaan bisnis UMKM; peran Scrum Master. |
-| 11 | CHILLIN | Business concept | Konsep bisnis minuman, pengalaman penyajian, persona, prototype, dan revenue stream. |
-| 12 | AI Learning Analytics Acceptance | Research manuscript | Penelitian penerimaan sistem learning analytics berbasis AI; judul manuskrip: Student Acceptance of AI-Driven Learning Analytics System. |
-| 13 | Oracle Cloud Database | Coursework | Monitoring database, Oracle Spatial, OML untuk klasifikasi Iris, dan Oracle Graph. |
-| 14 | Hadoop & PySpark | In progress | Setup, implementasi awal, dan troubleshooting lingkungan big data. |
-| 15 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
-| 16 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
-| 17 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
-| 18 | Purchase-Decision Companion | Concept exploration | Ide kompetisi keuangan dengan refleksi sebelum dan sesudah pembelian. |
-| 19 | Partner Planner | Concept exploration | Pendamping transisi mahasiswa tingkat akhir/fresh graduate menuju pekerjaan pertama. |
-| 20 | Student Adaptation App | Concept exploration | Dukungan keputusan harian dan adaptasi mahasiswa rantau. |
-| 21 | Geprek Ongkel — AI System Exploration | Problem framing | Identifikasi masalah operasional dan kemungkinan penerapan AI yang sesuai untuk UMKM makanan. |
-| 22 | Welcoming Party — Hybrid Production | Technical planning | Perencanaan vMix, audio, livestream, dan recording untuk acara hybrid. |
-| 23 | JusCoffee | Application concept | Aplikasi untuk pelanggan dan penjual kopi gerobak. |
+| 10 | CHILLIN | Business concept | Konsep bisnis minuman, pengalaman penyajian, persona, prototype, dan revenue stream. |
+| 11 | AI Learning Analytics Acceptance | Research manuscript | Penelitian penerimaan sistem learning analytics berbasis AI; judul manuskrip: Student Acceptance of AI-Driven Learning Analytics System. |
+| 12 | Oracle Cloud Database | Coursework | Monitoring database, Oracle Spatial, OML untuk klasifikasi Iris, dan Oracle Graph. |
+| 13 | Hadoop & PySpark | In progress | Setup, implementasi awal, dan troubleshooting lingkungan big data. |
+| 14 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
+| 15 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
+| 16 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
+| 17 | Purchase-Decision Companion | Concept exploration | Ide kompetisi keuangan dengan refleksi sebelum dan sesudah pembelian. |
 
-JusCoffee memiliki [posting proyek di LinkedIn](https://www.linkedin.com/posts/kennes-jansen-3543a0321_informationsystems-supplychainmanagement-activity-7412851741404102657-yfj-). Halaman profil lengkap belum dapat dibaca; hanya informasi yang tampak pada posting publik yang digunakan pada pembaruan ini. Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
+Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
+
+Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
+
+## Hasil proyek ACCESS
+
+- **Sumber:** file Figma `PRIMETIME` yang ditautkan Kennes, halaman `Hi Fi`. Sembilan layar berwarna diekspor langsung sebagai PNG berukuran 430 × 932; file gambar disalin tanpa menggambar ulang desain.
+- **Materi:** halaman utama, pencarian destinasi, pencarian pendamping, pilihan peran, preferensi mobilitas, laporan aksesibilitas, tampilan keluarga, profil caregiver, serta dashboard pendamping.
+- **Halaman publik:** `projects/access.html`. Tiga layar utama langsung terlihat; enam lainnya berada dalam dua bagian yang dapat dibuka. Semua gambar bisa dibuka pada ukuran aslinya. ACCESS berada pada daftar proyek lainnya, nomor 07, dengan dua thumbnail dan tautan ke galeri lengkap.
+- **Tautan:** tombol Figma menggunakan tautan prototype yang diberikan Kennes. Akses membaca file desain berhasil saat pengambilan gambar; akses tamu dan alur interaksi prototype belum diuji. Galeri lokal tetap tersedia secara mandiri.
+- **Penulisan:** nama, skor, harga, rating, dan ketersediaan pada layar adalah contoh isi prototype. Tidak diklaim sebagai hasil bisnis atau data layanan yang berjalan. Pembagian kontribusi pribadi tidak ditambahkan tanpa konfirmasi.
+
+## Hasil proyek BudgetWise
+
+- **Sumber yang dipilih:** `Dashboard Data Modelling(2).pdf`, sesuai instruksi terbaru Kennes untuk memakai PDF ini saja. File tersebut identik dengan `Dashboard Data Modelling(1).pdf`; entri BudgetWise diperbarui tanpa proyek duplikat.
+- **Materi:** presentasi lengkap 14 slide “Personal Finance Tracker Database”, Kelompok 3, Data Modelling. Kennes tercantum sebagai anggota. Halaman proyek memuat penampil PDF, tombol buka/unduh PDF, dua screenshot dashboard (slide 12–13), dan mockup awal (slide 11).
+- **Aset:** tiga PNG diekstrak langsung dari gambar yang tertanam dalam PDF. PDF dibuat lebih ringan untuk publikasi dengan mempertahankan jumlah, urutan, dimensi, dan teks setiap halaman. File unggahan asli tidak diubah. Ketajaman screenshot mengikuti materi sumber.
+- **Halaman publik:** `projects/budgetwise.html`; dokumen dan gambar berada di `assets/projects/budgetwise/`. Thumbnail grafik muncul pada kartu BudgetWise.
+- **Cakupan:** gambar menunjukkan KPI, pilihan tahun, empat slicer, tren bulanan, kategori pengeluaran, metode pembayaran, dan transaksi menurut lokasi. Ini presentasi hasil dashboard; kontrol Excel tidak berjalan di dalam gambar atau PDF. Workbook Excel dan dua laporan pendamping tidak dimasukkan ke paket publik.
+- **Pemeriksaan:** validasi dilakukan pada struktur HTML, tautan/aset lokal, integritas arsip, dan isi PDF. Interaksi Excel dan tampilan website melalui browser belum diuji untuk pembaruan ini.
 
 ## Materi Used Car Analysis yang dikirim Kennes
 
@@ -130,7 +143,6 @@ JusCoffee memiliki [posting proyek di LinkedIn](https://www.linkedin.com/posts/k
 
 - **PRIMETIME dan ACCESS:** dokumen `PRIMETIME` yang diperiksa memuat rancangan ACCESS. Keduanya diperlakukan sebagai satu proyek pada versi ini. Jika PRIMETIME juga mempunyai proyek lain yang berbeda, materi tambahan dibutuhkan untuk memisahkannya dengan tepat.
 - **Poster literasi:** “Cerdas Digital, Bijak Finansial” dan “Jangan Tersesat di Dunia Finansial” ditampilkan dalam satu entri proyek pendidikan, karena merupakan judul/arah kampanye dari pekerjaan yang sama.
-- **Partner Planner dan Student Adaptation App:** ditampilkan sebagai dua eksplorasi konsep dengan masalah yang berbeda. Hubungan keduanya sebagai proyek terpisah atau perubahan arah dari satu proyek belum dapat dipastikan; gabungkan jika memang berasal dari satu proyek.
 - **Cloud Database:** lab dan tugas akhir dirangkum menjadi satu entri coursework, dengan beberapa contoh kasus di dalamnya.
 - **LUNAR, NOVA, dan PKM BASIC:** tetap ditampilkan di bagian Experience. Keanggotaan ISCSC dan BNCC tetap tercantum di bagian About.
 

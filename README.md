@@ -2,7 +2,7 @@
 
 Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diunggah ke GitHub Pages dan bisa diedit dengan VS Code tanpa instalasi framework.
 
-Versi ini memuat 23 proyek dan eksplorasi: tiga proyek utama ditampilkan sebagai kartu, sedangkan 20 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
+Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
 
 ## Isi file
 
@@ -12,6 +12,10 @@ Versi ini memuat 23 proyek dan eksplorasi: tiga proyek utama ditampilkan sebagai
 | `styles.css` | Warna, tipografi, tata letak, dan tampilan untuk HP serta desktop. |
 | `main.js` | Penanda navigasi untuk bagian halaman yang sedang dilihat. |
 | `assets/kennes-jansen.jpeg` | Foto Kennes di bagian pembuka. |
+| `projects/access.html` | Galeri sembilan layar ACCESS dan tautan prototype Figma. |
+| `assets/projects/access/` | Sembilan ekspor PNG asli dari Figma ACCESS. |
+| `projects/budgetwise.html` | Presentasi PDF BudgetWise, screenshot dashboard, dan mockup awal. |
+| `assets/projects/budgetwise/` | Presentasi 14 slide versi ringan dan tiga gambar asli dari PDF. |
 | `projects/used-car-analysis.html` | Proyek Data Visualization: dashboard, galeri grafik, proses, cakupan data, serta tautan Tableau dan video. |
 | `assets/projects/used-car-analysis/` | Delapan screenshot asli dashboard dan chart dari laporan. |
 | `projects/aqquas.html` | Halaman detail Aqquas dengan galeri wireframe dan dokumentasi UX. |
@@ -29,21 +33,50 @@ Versi ini memuat 23 proyek dan eksplorasi: tiga proyek utama ditampilkan sebagai
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
-Ringkasan proyek memakai elemen HTML `details`, sehingga tetap bisa dibuka meskipun JavaScript tidak aktif. Tombol kontak membuka aplikasi email dengan alamat yang sudah diisi.
+Ringkasan proyek memakai elemen HTML `details`, sehingga tetap bisa dibuka meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
 
 Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur melalui `.hero-portrait` di `styles.css`, dengan bingkai portrait dan posisi foto yang mengutamakan wajah. Untuk mengganti foto nanti, ganti file `assets/kennes-jansen.jpeg` atau perbarui jalur `src` dan ukuran gambar pada `index.html`.
 
+## Kontak portofolio
+
+| Kanal | Ditampilkan | Tautan |
+| --- | --- | --- |
+| Instagram | @kenneeeees | https://www.instagram.com/kenneeeees/ |
+| WhatsApp | 0878 7120 5026 | https://wa.me/6287871205026 |
+| LinkedIn | Kennes Jansen | https://www.linkedin.com/in/kennes-jansen |
+| Email | kennes.jansen@binus.ac.id | mailto:kennes.jansen@binus.ac.id |
+
+Instagram dan nomor WhatsApp memakai informasi yang diberikan Kennes. Nomor WhatsApp ditampilkan dengan format lokal; tautannya menggunakan kode negara Indonesia `62` menggantikan angka `0` awal. Tautan membuka WhatsApp tanpa mengirim pesan otomatis. Semua pilihan kontak berfungsi sebagai tautan HTML dan tidak memerlukan JavaScript.
+
 ## Menambah atau memperbarui proyek
 
-Ringkasan proyek ditulis langsung di `index.html`, sehingga tidak memerlukan database atau proses build. Halaman detail Used Car Analysis, Aqquas, VinCraft, Knowl Online, Library Database, Solaria Database, dan StSport berada di folder `projects`. Tiga kartu utama berada di bagian `project-grid`; daftar lainnya berada di bagian `archive-list`.
+Ringkasan proyek ditulis langsung di `index.html`, sehingga tidak memerlukan database atau proses build. Halaman detail ACCESS, BudgetWise, Used Car Analysis, Aqquas, VinCraft, Knowl Online, Library Database, Solaria Database, dan StSport berada di folder `projects`. Tiga kartu utama berada di bagian `project-grid`; daftar lainnya berada di bagian `archive-list`.
 
 Untuk menambahkan proyek pada daftar, salin satu blok `<details class="archive-project">`, lalu ubah ID, nomor, judul, deskripsi, status, kategori, dan isi rinciannya. Gunakan ID unik, misalnya `project-nama-proyek`. Isi tahun, peran, hasil, dan tautan hanya dengan informasi yang sesuai proyekmu. Konsep, rencana, dan pekerjaan yang sedang berlangsung sudah diberi status tersendiri.
 
 Nama PRIMETIME pada dokumen yang diperiksa mengacu pada rancangan ACCESS. Karena itu, versi ini menampilkannya dalam satu entri ACCESS. Jika ada proyek PRIMETIME yang berbeda, tambahkan sebagai entri terpisah menggunakan materi proyek tersebut.
 
+## Hasil proyek ACCESS
+
+ACCESS berada pada daftar proyek lainnya dan memiliki sembilan layar berwarna yang diekspor langsung dari Figma: halaman utama, pencarian destinasi, pendamping, pilihan peran, kebutuhan mobilitas, laporan aksesibilitas, keluarga, profil caregiver, dan dashboard pendamping. Tiga layar utama ditampilkan langsung; layar lainnya bisa dibuka dalam dua galeri tambahan. Gambar bisa dibuka pada ukuran aslinya, termasuk ketika JavaScript tidak aktif.
+
+Tombol **Open prototype in Figma** memakai tautan yang diberikan Kennes. Berbagi file di Figma menentukan akses pengunjung; akses tamu dan alur prototype belum diuji. Galeri gambar pada website menggunakan file lokal sehingga tidak bergantung pada tautan gambar sementara Figma. Nama, rating, harga, dan skor pada desain merupakan contoh isi prototype.
+
+## Hasil proyek BudgetWise
+
+BudgetWise memakai `Dashboard Data Modelling(2).pdf` saja, sesuai pilihan terbaru Kennes. Halaman detail menampilkan presentasi lengkap 14 slide dengan tombol buka PDF pada tab baru dan unduh. Jika browser tidak menampilkan PDF di dalam halaman, kedua tombol tersebut tetap tersedia.
+
+Dua screenshot dashboard dan satu mockup awal diekstrak langsung dari PDF untuk galeri. PDF publik dioptimalkan agar lebih ringan, dengan jumlah, urutan, dimensi, dan teks halaman tetap sama. Gambar mengikuti resolusi materi sumber. File unggahan asli, workbook Excel, serta laporan lain tidak diubah.
+
+Presentasi dan screenshot mendokumentasikan hasil Excel; dropdown dan slicer di dalamnya berupa gambar. Pembaruan ini tidak membuat ulang dashboard Excel sebagai aplikasi web. Sumber dan cakupan lengkap tercantum di `PROJECTS.md`.
+
+## Memasang paket pembaruan
+
+Jika memakai `kennes-portfolio-update.zip`, ekstrak ZIP lalu unggah seluruh isi hasil ekstrak, termasuk folder `assets` dan `projects`, ke halaman utama repository portofolio. Pertahankan nama serta struktur folder dan simpan dengan **Commit changes**. Paket ini memuat Library Database sebagai proyek utama, galeri ACCESS pada daftar proyek lainnya, presentasi BudgetWise, serta revisi daftar proyek sebelumnya; file proyek lain tetap diperlukan dari unggahan yang sudah ada.
+
 ## Hasil proyek Used Car Analysis
 
-Entri Used Car Analysis yang sudah ada dilengkapi dari empat materi yang dikirim: `Cars_Dataset_Cleaned_Final (2).xlsx`, `Project Data Visualization Kennes Jansen (2).pdf`, `Project Data Visualization Kennes Jansen (3).docx`, dan workbook Tableau `.twbx`. Jumlah proyek tetap 23 karena ini memperbarui entri yang sama.
+Entri Used Car Analysis yang sudah ada dilengkapi dari empat materi yang dikirim: `Cars_Dataset_Cleaned_Final (2).xlsx`, `Project Data Visualization Kennes Jansen (2).pdf`, `Project Data Visualization Kennes Jansen (3).docx`, dan workbook Tableau `.twbx`. Materi ini memperbarui entri yang sama tanpa menambah proyek duplikat.
 
 Halaman detail menampilkan delapan screenshot asli dari DOCX: dashboard, empat chart utama, serta tiga chart EDA. Gambar dapat diperbesar dengan membuka file aslinya. Tombol Tableau Public dan YouTube memakai tautan yang tercantum di laporan. Akses kedua tautan tidak dapat diverifikasi melalui layanan web pada sesi pengerjaan ini; galeri gambar tetap tersedia di website tanpa bergantung pada layanan tersebut.
 
