@@ -2,7 +2,7 @@
 
 Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diunggah ke GitHub Pages dan bisa diedit dengan VS Code tanpa instalasi framework.
 
-Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
+Versi ini memuat 18 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 15 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian semifinalist Makarapreneur BCC 2026 juga ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
 
 ## Isi file
 
@@ -30,6 +30,8 @@ Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Use
 | `assets/projects/solaria-database/` | Lima gambar sumber: ERD, model logis, studi dependensi, trigger, dan mockup. |
 | `projects/stsport.html` | Studi kasus ISAD dengan galeri antarmuka, analisis masalah, dan diagram sistem. |
 | `assets/projects/stsport/` | Dua puluh gambar asli dari laporan StSport: 12 layar dan 8 diagram. |
+| `projects/makarapreneur-bcc.html` | Studi kasus Go “FRESH” With NutriSari, sertifikat semifinalist, dan proposal lengkap 40 halaman. |
+| `assets/projects/makarapreneur-bcc/` | Sertifikat PNG, proposal PDF, dan dua diagram JPEG asli dari proposal. |
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
@@ -47,6 +49,14 @@ Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur 
 | Email | kennes.jansen@binus.ac.id | mailto:kennes.jansen@binus.ac.id |
 
 Instagram dan nomor WhatsApp memakai informasi yang diberikan Kennes. Nomor WhatsApp ditampilkan dengan format lokal; tautannya menggunakan kode negara Indonesia `62` menggantikan angka `0` awal. Tautan membuka WhatsApp tanpa mengirim pesan otomatis. Semua pilihan kontak berfungsi sebagai tautan HTML dan tidak memerlukan JavaScript.
+
+## Makarapreneur BCC 2026
+
+Sertifikat `31.png` mencantumkan **Kennes Jansen** sebagai **Semifinalist** pada **Undergraduate Business Case Competition 2026**, diselenggarakan **Makarapreneur HIPMI PT UI** dan tertanggal **19 Mei 2026**. Sorotan pencapaian berada setelah tiga kartu proyek utama dan menaut ke halaman studi kasus serta gambar sertifikat ukuran penuh.
+
+Proposal **Go “FRESH” With NutriSari** berasal dari tim **Gangnam Style**, sesuai ejaan pada sampul, dengan anggota Kennes Jansen, Adrian Aulia, dan Faiz Zaldi. Peran Kennes ditulis sebagai anggota tim; tidak ada pembagian tugas individual yang ditambahkan. Ringkasan mencakup survei awal 87 responden dan survei lanjutan 51 responden, observasi, analisis pasar, lima strategi FRESH, serta rencana implementasi. Dua survei tersebut tidak dijumlahkan sebagai responden unik.
+
+Halaman detail menyediakan dua diagram asli dari halaman 14 dan 20, gambar sertifikat, serta penampil PDF dengan tombol buka dan unduh. PDF 40 halaman dan sertifikat disalin tanpa perubahan. Strategi dan proyeksi ditulis sebagai usulan tim; pencapaian kompetisinya adalah semifinalist. Semua aset memakai jalur relatif agar dapat dibuka dari subfolder GitHub Pages.
 
 ## Menambah atau memperbarui proyek
 

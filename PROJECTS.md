@@ -1,6 +1,6 @@
 # Inventaris proyek portofolio Kennes Jansen
 
-Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
+Daftar ini memuat 18 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
 
 | No. | Proyek | Status pada website | Fokus |
 | --- | --- | --- | --- |
@@ -21,10 +21,22 @@ Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar
 | 15 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
 | 16 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
 | 17 | Purchase-Decision Companion | Concept exploration | Ide kompetisi keuangan dengan refleksi sebelum dan sesudah pembelian. |
+| 18 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
 
 Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
 
 Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
+
+## Bukti Makarapreneur BCC 2026
+
+- **Sumber:** `31.png` dan `MKPR2026_Proposal_Gangam Style_Kennes Jansen (1)_compressed.pdf`, diberikan Kennes untuk portofolio.
+- **Pencapaian:** Semifinalist, Undergraduate Business Case Competition 2026, Makarapreneur HIPMI PT UI. Tanggal sertifikat 19 Mei 2026. Tidak ada peringkat, hadiah, atau jumlah peserta yang ditambahkan.
+- **Judul dan tim:** Go “FRESH” With NutriSari; Gangnam Style, sesuai sampul proposal. Anggota yang tercantum: Kennes Jansen, Adrian Aulia, dan Faiz Zaldi. Nama berkas sumber memakai “Gangam”, tetapi ejaan nama tim pada website mengikuti sampul “GANGNAM STYLE”.
+- **Peran pribadi:** anggota tim. Pembagian tugas atau kepemimpinan tidak dijelaskan oleh sumber, sehingga tidak diklaim.
+- **Lingkup:** survei awal n=87 dan survei lanjutan n=51, observasi lapangan, riset sekunder, STP/PDB, ukuran pasar, perjalanan konsumen, analisis pesaing, FRESH, roadmap, mitigasi risiko, dan proyeksi keuangan. Jumlah responden tidak digabungkan karena identitas unik lintas survei belum diketahui.
+- **Status solusi:** proposal kompetisi. Inisiatif dan angka keuangan merupakan rencana/proyeksi, bukan hasil implementasi yang terukur.
+- **Aset publik:** `semifinalist-certificate.png` identik dengan `31.png`; `proposal.pdf` identik dengan PDF sumber, 40 halaman; `fresh-framework.jpeg` merupakan gambar xref 180 halaman 14 (1236×695); `implementation-roadmap.jpeg` merupakan gambar xref 199 halaman 20 (1073×1075). Gambar diekstrak tanpa perubahan byte.
+- **Penempatan:** sorotan pencapaian setelah tiga kartu utama, entri arsip nomor 18, serta `projects/makarapreneur-bcc.html`. PDF dapat dibaca, dibuka di tab baru, atau diunduh. Sertifikat dan diagram dapat dibuka ukuran penuh.
 
 ## Hasil proyek ACCESS
 

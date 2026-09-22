@@ -137,6 +137,21 @@ details[open] .when-open { display: inline; }
 .project-output h4 { font-size: 1.35rem; letter-spacing: -.025em; }
 .project-output .button { gap: 18px; margin-top: 18px; }
 .case-study { max-width: 1120px; padding-top: 36px; }
+.recognition-highlight { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 40px; margin-top: 56px; padding: 36px; background: #fff; border: 1px solid var(--line); border-top: 3px solid #ab792d; border-radius: 6px; }
+.recognition-copy { min-width: 0; }
+.recognition-copy > .eyebrow { color: #805419; margin-bottom: 18px; }
+.recognition-copy h3 { font-size: clamp(2.1rem, 3.8vw, 3.25rem); letter-spacing: -.045em; }
+.recognition-copy > p { color: var(--muted); margin-top: 14px; }
+.recognition-copy > .recognition-event { font-size: 1.2rem; font-weight: 600; line-height: 1.45; color: var(--ink); }
+.recognition-copy > .recognition-meta { font-size: .8125rem; margin-top: 8px; }
+.recognition-copy .case-actions { gap: 18px 22px; }
+.recognition-certificate { display: block; min-width: 0; border-radius: 4px; }
+.recognition-certificate img { width: 100%; height: auto; border-radius: 4px; }
+.stage-achievement { color: #765015; background: #f5ecd7; }
+.bcc-framework-list { margin: 0; padding-left: 1.25rem; color: var(--muted); }
+.bcc-framework-list li + li { margin-top: 14px; }
+.bcc-framework-list strong { color: var(--ink); }
+.bcc-roadmap { width: 100%; max-width: 780px; margin-inline: auto; }
 .case-back { display: inline-flex; align-items: center; gap: 10px; font-size: .875rem; color: var(--muted); padding-block: 8px; }
 .case-back:hover, .case-text-link:hover { color: var(--blue); }
 .case-intro { padding-block: 48px 40px; max-width: 830px; }
@@ -293,6 +308,7 @@ details[open] .when-open { display: inline; }
   .disciplines { gap: 12px; font-size: .8125rem; }
 }
 @media (max-width: 800px) {
+  .recognition-highlight { grid-template-columns: 1fr; gap: 28px; padding: 28px; }
   .project-output { grid-template-columns: 1fr; gap: 20px; }
   .case-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .case-overview { grid-template-columns: 1fr; gap: 26px; }
@@ -333,6 +349,7 @@ details[open] .when-open { display: inline; }
   .contact-section h2 { font-size: 2.8rem; }
 }
 @media (max-width: 560px) {
+  .recognition-highlight { margin-top: 40px; padding: 22px; }
   .preview-nav { gap: 8px; padding: 12px; }
   .preview-nav a { padding: 9px 11px; }
   .preview-frame { height: 620px; }
