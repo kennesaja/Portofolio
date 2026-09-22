@@ -1,6 +1,6 @@
 # Inventaris proyek portofolio Kennes Jansen
 
-Daftar ini memuat 18 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
+Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
 
 | No. | Proyek | Status pada website | Fokus |
 | --- | --- | --- | --- |
@@ -16,16 +16,27 @@ Daftar ini memuat 18 proyek dan eksplorasi yang ditampilkan pada website. Daftar
 | 10 | CHILLIN | Business concept | Konsep bisnis minuman, pengalaman penyajian, persona, prototype, dan revenue stream. |
 | 11 | AI Learning Analytics Acceptance | Research manuscript | Penelitian penerimaan sistem learning analytics berbasis AI; judul manuskrip: Student Acceptance of AI-Driven Learning Analytics System. |
 | 12 | Oracle Cloud Database | Coursework | Monitoring database, Oracle Spatial, OML untuk klasifikasi Iris, dan Oracle Graph. |
-| 13 | Hadoop & PySpark | In progress | Setup, implementasi awal, dan troubleshooting lingkungan big data. |
-| 14 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
-| 15 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
-| 16 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
-| 17 | Purchase-Decision Companion | Concept exploration | Ide kompetisi keuangan dengan refleksi sebelum dan sesudah pembelian. |
-| 18 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
+| 13 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
+| 14 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
+| 15 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
+| 16 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
+| 17 | SnapCash | Project management plan | Proyek ISPM Kelompok 3: peran Scrum Master, backlog, enam sprint, WBS, Gantt, anggaran, risiko, komunikasi, dan dua PDF lengkap. |
 
 Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
 
 Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
+
+## Bukti SnapCash ISPM
+
+- **Sumber:** `Project ISPM SnapCash - Group 3.pdf` (51 halaman) dan `PPT SnapCash - Group 3.pdf` (65 slide), diberikan Kennes untuk ditambahkan ke portofolio.
+- **Mata kuliah dan periode:** Information Systems Project Management; semester genap 2025/2026. Sampul laporan juga memuat teks “Marketing Data Analytics”, tetapi identitas mata kuliah pada bagian bawah sampul dan keterangan Kennes menyebut ISPM.
+- **Kelompok:** Group 3; Christofer Marveleous Krisdianto, Nabila Ullivia Fatimah, Kennes Jansen, Angelo, dan Meini Rusiadi.
+- **Peran pribadi:** Scrum Master pada charter (laporan halaman 9; presentasi slide 16). Risk plan mencantumkan Kennes sebagai pemilik risiko R-06 keterlambatan sprint, R-07 testing underscoped, dan R-09 beban kerja anggota (laporan halaman 37; presentasi slide 50).
+- **Penugasan WBS:** desain database, kebutuhan fungsional, inventaris, low-stock alert, dan supplier pada gambar WBS (presentasi slide 38). Pembagian tugas pada sprint backlog, narasi WBS, dan gambar WBS tidak sepenuhnya sama. Website membedakan peran pada charter dari penugasan pada WBS dan tidak menyatakan seluruh modul dikerjakan atau sudah selesai oleh Kennes.
+- **Lingkup manajemen proyek:** 18 backlog item, enam sprint dua mingguan, WBS, Gantt, AON/ADM, critical path/float, rencana anggaran Rp200 juta, risk register, rencana komunikasi, dan proyeksi pertumbuhan. Jadwal charter dimulai Maret–Mei 2026; WBS juga memuat inisiasi pada Februari.
+- **Batas klaim:** dokumen perencanaan ISPM. Status pada WBS menunjukkan analisis selesai dan pengembangan/pengujian masih “To Do”. Log sprint dalam laporan tidak digunakan untuk mengklaim aplikasi telah diuji atau dipublikasikan. Anggaran, harga, target pelanggan, dan proyeksi finansial bukan realisasi bisnis; website hanya menampilkan anggaran sebagai rencana.
+- **Aset publik:** `assets/projects/snapcash/report.pdf` dan `presentation.pdf` identik dengan berkas sumber. `work-breakdown.jpeg` berasal dari xref 513 pada slide 38 (837×698); `gantt-chart.jpeg` berasal dari xref 520 pada slide 40 (1553×708). Gambar diekstrak tanpa perubahan byte.
+- **Penempatan:** entri arsip nomor 17 dan `projects/snapcash.html`, dengan galeri WBS/Gantt, dua penampil PDF, serta tautan buka dan unduh dokumen.
 
 ## Bukti Makarapreneur BCC 2026
 
@@ -36,7 +47,7 @@ Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car An
 - **Lingkup:** survei awal n=87 dan survei lanjutan n=51, observasi lapangan, riset sekunder, STP/PDB, ukuran pasar, perjalanan konsumen, analisis pesaing, FRESH, roadmap, mitigasi risiko, dan proyeksi keuangan. Jumlah responden tidak digabungkan karena identitas unik lintas survei belum diketahui.
 - **Status solusi:** proposal kompetisi. Inisiatif dan angka keuangan merupakan rencana/proyeksi, bukan hasil implementasi yang terukur.
 - **Aset publik:** `semifinalist-certificate.png` identik dengan `31.png`; `proposal.pdf` identik dengan PDF sumber, 40 halaman; `fresh-framework.jpeg` merupakan gambar xref 180 halaman 14 (1236×695); `implementation-roadmap.jpeg` merupakan gambar xref 199 halaman 20 (1073×1075). Gambar diekstrak tanpa perubahan byte.
-- **Penempatan:** sorotan pencapaian setelah tiga kartu utama, entri arsip nomor 18, serta `projects/makarapreneur-bcc.html`. PDF dapat dibaca, dibuka di tab baru, atau diunduh. Sertifikat dan diagram dapat dibuka ukuran penuh.
+- **Penempatan:** sorotan pencapaian setelah tiga kartu utama, entri arsip nomor 16, serta `projects/makarapreneur-bcc.html`. PDF dapat dibaca, dibuka di tab baru, atau diunduh. Sertifikat dan diagram dapat dibuka ukuran penuh.
 
 ## Hasil proyek ACCESS
 

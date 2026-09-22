@@ -152,6 +152,7 @@ details[open] .when-open { display: inline; }
 .bcc-framework-list li + li { margin-top: 14px; }
 .bcc-framework-list strong { color: var(--ink); }
 .bcc-roadmap { width: 100%; max-width: 780px; margin-inline: auto; }
+.snapcash-wbs { width: 100%; max-width: 880px; margin-inline: auto; }
 .case-back { display: inline-flex; align-items: center; gap: 10px; font-size: .875rem; color: var(--muted); padding-block: 8px; }
 .case-back:hover, .case-text-link:hover { color: var(--blue); }
 .case-intro { padding-block: 48px 40px; max-width: 830px; }

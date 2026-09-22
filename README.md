@@ -2,7 +2,7 @@
 
 Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diunggah ke GitHub Pages dan bisa diedit dengan VS Code tanpa instalasi framework.
 
-Versi ini memuat 18 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 15 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian semifinalist Makarapreneur BCC 2026 juga ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
+Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian semifinalist Makarapreneur BCC 2026 juga ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
 
 ## Isi file
 
@@ -32,6 +32,8 @@ Versi ini memuat 18 proyek dan eksplorasi: Library Database, BudgetWise, dan Use
 | `assets/projects/stsport/` | Dua puluh gambar asli dari laporan StSport: 12 layar dan 8 diagram. |
 | `projects/makarapreneur-bcc.html` | Studi kasus Go “FRESH” With NutriSari, sertifikat semifinalist, dan proposal lengkap 40 halaman. |
 | `assets/projects/makarapreneur-bcc/` | Sertifikat PNG, proposal PDF, dan dua diagram JPEG asli dari proposal. |
+| `projects/snapcash.html` | Proyek ISPM SnapCash: peran Scrum Master, rencana proyek, WBS, Gantt, presentasi 65 slide, dan laporan 51 halaman. |
+| `assets/projects/snapcash/` | Dua PDF asli serta gambar WBS dan Gantt dari presentasi. |
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
@@ -57,6 +59,14 @@ Sertifikat `31.png` mencantumkan **Kennes Jansen** sebagai **Semifinalist** pada
 Proposal **Go “FRESH” With NutriSari** berasal dari tim **Gangnam Style**, sesuai ejaan pada sampul, dengan anggota Kennes Jansen, Adrian Aulia, dan Faiz Zaldi. Peran Kennes ditulis sebagai anggota tim; tidak ada pembagian tugas individual yang ditambahkan. Ringkasan mencakup survei awal 87 responden dan survei lanjutan 51 responden, observasi, analisis pasar, lima strategi FRESH, serta rencana implementasi. Dua survei tersebut tidak dijumlahkan sebagai responden unik.
 
 Halaman detail menyediakan dua diagram asli dari halaman 14 dan 20, gambar sertifikat, serta penampil PDF dengan tombol buka dan unduh. PDF 40 halaman dan sertifikat disalin tanpa perubahan. Strategi dan proyeksi ditulis sebagai usulan tim; pencapaian kompetisinya adalah semifinalist. Semua aset memakai jalur relatif agar dapat dibuka dari subfolder GitHub Pages.
+
+## Hasil proyek SnapCash
+
+SnapCash ditambahkan berdasarkan `Project ISPM SnapCash - Group 3.pdf` (51 halaman) dan `PPT SnapCash - Group 3.pdf` (65 slide). Proyek ini berasal dari mata kuliah **Information Systems Project Management**, Kelompok 3, semester genap 2025/2026. Sistem yang direncanakan menghubungkan transaksi POS, inventaris, supplier, laporan keuangan, dan analitik untuk UMKM, khususnya bisnis makanan dan minuman.
+
+Charter mencantumkan **Kennes Jansen sebagai Scrum Master**. Risk ownership menugaskan Kennes memantau risiko keterlambatan sprint, kecukupan pengujian, dan beban kerja tim. WBS juga mencantumkan tugas desain database, kebutuhan fungsional, inventaris, low-stock alert, dan supplier. Peran Scrum Master dan penugasan WBS dijelaskan sesuai bagian dokumen masing-masing; website tidak menyatakan semua modul sudah diimplementasikan oleh Kennes.
+
+Halaman proyek menampilkan dua gambar asli WBS dan Gantt, ringkasan 18 backlog item dan enam sprint, penjadwalan, rencana anggaran, manajemen risiko, dan komunikasi stakeholder. Anggaran serta proyeksi bisnis diberi konteks sebagai rencana. PDF dapat dibaca langsung, dibuka di tab baru, atau diunduh; dua berkas PDF disalin tanpa perubahan. Entri berada pada urutan 17 dalam daftar proyek.
 
 ## Menambah atau memperbarui proyek
 
