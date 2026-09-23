@@ -22,7 +22,7 @@ Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar
 | 16 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
 | 17 | SnapCash | Project management plan | Proyek ISPM Kelompok 3: peran Scrum Master, backlog, enam sprint, WBS, Gantt, anggaran, risiko, komunikasi, dan dua PDF lengkap. |
 
-Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
+Profil dan pengalaman pilihan telah disesuaikan dari `Profile.pdf` yang dikirim Kennes. Education Coordinator kini mencantumkan Februari 2026–sekarang dan tanggung jawab menjaga kualitas konten edukasi HIMSISFO. Bagian Experience dibatasi pada empat sorotan; About terdiri dari dua paragraf agar proyek menjadi fokus utama.
 
 Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
 
@@ -167,7 +167,7 @@ Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car An
 - **PRIMETIME dan ACCESS:** dokumen `PRIMETIME` yang diperiksa memuat rancangan ACCESS. Keduanya diperlakukan sebagai satu proyek pada versi ini. Jika PRIMETIME juga mempunyai proyek lain yang berbeda, materi tambahan dibutuhkan untuk memisahkannya dengan tepat.
 - **Poster literasi:** “Cerdas Digital, Bijak Finansial” dan “Jangan Tersesat di Dunia Finansial” ditampilkan dalam satu entri proyek pendidikan, karena merupakan judul/arah kampanye dari pekerjaan yang sama.
 - **Cloud Database:** lab dan tugas akhir dirangkum menjadi satu entri coursework, dengan beberapa contoh kasus di dalamnya.
-- **LUNAR, NOVA, dan PKM BASIC:** tetap ditampilkan di bagian Experience. Keanggotaan ISCSC dan BNCC tetap tercantum di bagian About.
+- **Pengalaman pilihan:** LUNAR dan NOVA dirangkum dalam satu entri Equipment & Logistics Coordinator. PKM BASIC dan peran organisasi lainnya dapat dilihat melalui LinkedIn. Keanggotaan ISCSC dan pengalaman BNCC tetap diringkas di bagian About.
 
 ## Informasi yang dapat dilengkapi
 

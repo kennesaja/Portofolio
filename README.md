@@ -4,6 +4,14 @@ Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diung
 
 Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian semifinalist Makarapreneur BCC 2026 juga ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
 
+## Profil dan pengalaman pilihan
+
+Profil disesuaikan dari PDF LinkedIn `Profile.pdf` yang dikirim Kennes. Bagian pembuka menyebut spesialisasi Business Intelligence; bagian About diringkas menjadi dua paragraf, dengan keanggotaan ISCSC dan pengalaman belajar di BNCC. Empat alat yang ditampilkan adalah Figma, Microsoft Excel, Tableau, dan Oracle SQL Developer.
+
+Experience menampilkan empat sorotan: Education Coordinator, Equipment & Logistics Coordinator untuk LUNAR/NOVA, Online Shop Administrator, dan relawan ISG INSIGHT. Rincian lain dapat dibaca melalui tautan LinkedIn. Seluruh bagian proyek tetap mendahului pengalaman dan profil; PDF LinkedIn tidak ditambahkan sebagai unduhan publik.
+
+Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–Juli 2026) mengikuti PDF. Untuk Starindo, durasi tetap sekitar satu tahun sesuai keterangan Kennes dan uraian dalam PDF; rentang otomatis Juli 2023–sekarang pada profil berbeda dari uraian tersebut, sehingga tidak digunakan untuk menyatakan masa kerja tiga tahun atau status kerja saat ini.
+
 ## Isi file
 
 | File | Fungsi |
@@ -37,7 +45,7 @@ Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Use
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
-Ringkasan proyek memakai elemen HTML `details`, sehingga tetap bisa dibuka meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
+Seluruh 17 ringkasan proyek pada halaman utama dimulai dalam keadaan tertutup. Klik judul/kartu atau tanda **+** untuk membuka detail; klik lagi untuk menutupnya. Ringkasan memakai elemen HTML `details` dan `summary`, sehingga juga bisa dibuka melalui keyboard dan tetap berfungsi meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
 
 Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur melalui `.hero-portrait` di `styles.css`, dengan bingkai portrait dan posisi foto yang mengutamakan wajah. Untuk mengganti foto nanti, ganti file `assets/kennes-jansen.jpeg` atau perbarui jalur `src` dan ukuran gambar pada `index.html`.
 
