@@ -12,13 +12,15 @@ Experience menampilkan empat sorotan: Education Coordinator, Equipment & Logisti
 
 Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–Juli 2026) mengikuti PDF. Untuk Starindo, durasi tetap sekitar satu tahun sesuai keterangan Kennes dan uraian dalam PDF; rentang otomatis Juli 2023–sekarang pada profil berbeda dari uraian tersebut, sehingga tidak digunakan untuk menyatakan masa kerja tiga tahun atau status kerja saat ini.
 
-## CV yang bisa diunduh
+## Preview dan unduhan CV
 
-Tautan **Download CV** di bagian pembuka mengarah ke pilihan **English CV (PDF)** dan **CV Indonesia (PDF)** di bagian About. Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(3).pdf` dan `Kennes_Jansen_CV_Indonesia(3).pdf`), disalin tanpa perubahan isi. Unduhan memakai tautan HTML biasa dan tidak memerlukan JavaScript.
+Tautan **Preview CV** di bagian pembuka membuka `cv.html`. Bagian About menyediakan pilihan **Preview** dan **Download PDF** untuk bahasa Inggris serta Indonesia. Halaman preview memiliki pilihan bahasa, dua halaman CV yang bisa dibaca dengan menggulir, tautan untuk memperbesar setiap halaman, serta tombol buka dan unduh PDF. Semua tautan berfungsi tanpa JavaScript.
 
-Untuk memperbarui CV nanti, ganti `assets/cv/kennes-jansen-cv-english.pdf` dan/atau `assets/cv/kennes-jansen-cv-indonesia.pdf` dengan PDF terbaru menggunakan nama yang sama.
+Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(3).pdf` dan `Kennes_Jansen_CV_Indonesia(3).pdf`), disalin tanpa perubahan isi. Empat gambar WebP merupakan hasil render langsung dari dua halaman masing-masing PDF pada 144 dpi, sehingga preview tidak bergantung pada penampil PDF bawaan browser. PDF asli tetap tersedia untuk membaca teks dan mengunduh dokumen.
 
-Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu unggah seluruh isinya: `index.html`, `styles.css`, `README.md`, dan folder `assets` ke akar repository `kennesaja/Portofolio` pada branch `main`. Pertahankan struktur `assets/cv/`; unggah isi ZIP, bukan file ZIP. Folder aset yang sudah ada tetap dipakai. Klik **Commit changes** dan tunggu deployment GitHub Pages selesai.
+Untuk memperbarui CV nanti, ganti PDF dengan nama yang sama dan buat ulang kedua gambar preview untuk bahasa tersebut agar tampilan dan unduhannya selalu sesuai. Jika jumlah halaman berubah, sesuaikan halaman HTML preview juga.
+
+Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu unggah seluruh isinya: `index.html`, `styles.css`, `README.md`, `cv.html`, `cv-indonesia.html`, dan folder `assets` ke akar repository `kennesaja/Portofolio` pada branch `main`. Pertahankan struktur `assets/cv/`; unggah isi ZIP, bukan file ZIP. Paket memuat 11 file, termasuk kedua PDF dan empat gambar preview. Klik **Commit changes** dan tunggu deployment GitHub Pages selesai.
 
 ## Isi file
 
@@ -30,6 +32,10 @@ Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu ungg
 | `assets/kennes-jansen.jpeg` | Foto Kennes di bagian pembuka. |
 | `assets/cv/kennes-jansen-cv-english.pdf` | CV terbaru dalam bahasa Inggris, 2 halaman. |
 | `assets/cv/kennes-jansen-cv-indonesia.pdf` | CV terbaru dalam bahasa Indonesia, 2 halaman. |
+| `cv.html` | Halaman preview CV Inggris dengan pilihan bahasa serta buka/unduh PDF. |
+| `cv-indonesia.html` | Halaman preview CV Indonesia dengan pilihan bahasa serta buka/unduh PDF. |
+| `assets/cv/english-page-1.webp`, `english-page-2.webp` | Render asli dua halaman CV Inggris untuk preview. |
+| `assets/cv/indonesia-page-1.webp`, `indonesia-page-2.webp` | Render asli dua halaman CV Indonesia untuk preview. |
 | `projects/access.html` | Galeri sembilan layar ACCESS dan tautan prototype Figma. |
 | `assets/projects/access/` | Sembilan ekspor PNG asli dari Figma ACCESS. |
 | `projects/budgetwise.html` | Presentasi PDF BudgetWise, screenshot dashboard, dan mockup awal. |
