@@ -12,6 +12,14 @@ Experience menampilkan empat sorotan: Education Coordinator, Equipment & Logisti
 
 Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–Juli 2026) mengikuti PDF. Untuk Starindo, durasi tetap sekitar satu tahun sesuai keterangan Kennes dan uraian dalam PDF; rentang otomatis Juli 2023–sekarang pada profil berbeda dari uraian tersebut, sehingga tidak digunakan untuk menyatakan masa kerja tiga tahun atau status kerja saat ini.
 
+## CV yang bisa diunduh
+
+Tautan **Download CV** di bagian pembuka mengarah ke pilihan **English CV (PDF)** dan **CV Indonesia (PDF)** di bagian About. Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(3).pdf` dan `Kennes_Jansen_CV_Indonesia(3).pdf`), disalin tanpa perubahan isi. Unduhan memakai tautan HTML biasa dan tidak memerlukan JavaScript.
+
+Untuk memperbarui CV nanti, ganti `assets/cv/kennes-jansen-cv-english.pdf` dan/atau `assets/cv/kennes-jansen-cv-indonesia.pdf` dengan PDF terbaru menggunakan nama yang sama.
+
+Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu unggah seluruh isinya: `index.html`, `styles.css`, `README.md`, dan folder `assets` ke akar repository `kennesaja/Portofolio` pada branch `main`. Pertahankan struktur `assets/cv/`; unggah isi ZIP, bukan file ZIP. Folder aset yang sudah ada tetap dipakai. Klik **Commit changes** dan tunggu deployment GitHub Pages selesai.
+
 ## Isi file
 
 | File | Fungsi |
@@ -20,6 +28,8 @@ Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–
 | `styles.css` | Warna, tipografi, tata letak, dan tampilan untuk HP serta desktop. |
 | `main.js` | Penanda navigasi untuk bagian halaman yang sedang dilihat. |
 | `assets/kennes-jansen.jpeg` | Foto Kennes di bagian pembuka. |
+| `assets/cv/kennes-jansen-cv-english.pdf` | CV terbaru dalam bahasa Inggris, 2 halaman. |
+| `assets/cv/kennes-jansen-cv-indonesia.pdf` | CV terbaru dalam bahasa Indonesia, 2 halaman. |
 | `projects/access.html` | Galeri sembilan layar ACCESS dan tautan prototype Figma. |
 | `assets/projects/access/` | Sembilan ekspor PNG asli dari Figma ACCESS. |
 | `projects/budgetwise.html` | Presentasi PDF BudgetWise, screenshot dashboard, dan mockup awal. |

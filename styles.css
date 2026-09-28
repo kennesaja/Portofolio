@@ -51,6 +51,10 @@ h1 { font-size: clamp(4rem, 7.6vw, 7.35rem); letter-spacing: -.065em; line-heigh
 .button-dark { background: var(--ink); color: white; margin-top: 26px; }
 .button-dark:hover { background: var(--blue); transform: translateY(-2px); }
 .button span { font-size: 1.35rem; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 26px; }
+.hero-actions .button { margin-top: 0; }
+.cv-shortcut { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--blue); font-size: .875rem; font-weight: 600; }
+.cv-shortcut:hover { text-decoration: underline; text-underline-offset: 4px; }
 .hero-location { margin-top: 33px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center; font-size: .75rem; color: var(--muted); }
 .hero-location span + span { border-left: 1px solid #bdc3ce; padding-left: 15px; }
 .hero-portrait { position: relative; width: 100%; max-width: 480px; justify-self: end; aspect-ratio: 4 / 5; overflow: hidden; background: #e2e7ed; border: 1px solid var(--line); border-radius: 6px; }
@@ -274,6 +278,14 @@ details[open] .when-open { display: inline; }
 .toolbox h3 { font-size: .875rem; font-weight: 600; margin-bottom: 15px; }
 .tool-tags { display: flex; flex-wrap: wrap; gap: 9px; }
 .tool-tags span { display: inline-block; border: 1px solid #cdd3df; border-radius: 4px; padding: 6px 12px; font-size: .875rem; background: white; }
+
+.cv-downloads { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--line); }
+.cv-downloads h3 { font-size: 1rem; font-weight: 600; }
+.cv-downloads p { margin-top: 8px; color: var(--muted); font-size: .875rem; }
+.cv-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.cv-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 48px; padding: 10px 16px; border: 1px solid #cdd3df; border-radius: 4px; background: var(--white); font-size: .875rem; font-weight: 600; transition: border-color .2s, color .2s; }
+.cv-link:hover { border-color: var(--blue); color: var(--blue); }
+.cv-link span { font-size: 1.25rem; }
 
 .contact-section { color: white; background: var(--blue); }
 .contact-inner { padding-block: 76px; display: flex; justify-content: space-between; align-items: center; gap: 38px; }
