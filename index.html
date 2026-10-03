@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2547ed">
-  <meta name="description" content="Explore Kennes Jansen's portfolio of UI/UX prototypes, dashboards, systems coursework, research, business concepts, and community projects at BINUS University.">
+  <meta name="description" content="Explore UI/UX, database, and data visualization projects by Kennes Jansen, an Information Systems student specializing in Business Intelligence at BINUS University.">
   <title>Kennes Jansen — Information Systems Portfolio</title>
   <meta property="og:title" content="Kennes Jansen — Portfolio">
   <meta property="og:description" content="Projects in design, data, research, business, and community work, alongside organizational experience.">
@@ -23,7 +23,7 @@
         <a href="#experience">Experience</a>
         <a href="#about">About</a>
       </nav>
-      <a class="header-contact" href="mailto:kennes.jansen@binus.ac.id">Say hello <span aria-hidden="true">↗</span></a>
+      <a class="header-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
@@ -33,8 +33,11 @@
         <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> A portfolio by</p>
         <h1 id="hero-title">Kennes<br>Jansen<span class="blue">.</span></h1>
         <p class="hero-role">Information Systems student.</p>
-        <p class="hero-intro">Exploring how design, data, and thoughtful systems can make everyday experiences work better.</p>
-        <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+        <p class="hero-intro">Specializing in Business Intelligence, with projects in UI/UX, databases, and data visualization.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="cv-shortcut" href="./cv.html">Preview CV <span aria-hidden="true">→</span></a>
+        </div>
         <div class="hero-location"><span>BINUS University</span><span>Jakarta, Indonesia</span></div>
       </div>
       <figure class="hero-portrait">
@@ -43,7 +46,7 @@
     </section>
 
     <div class="disciplines page-width" aria-label="Areas of interest">
-      <span>UI/UX &amp; prototyping</span><span class="discipline-divider" aria-hidden="true">/</span><span>Data visualization</span><span class="discipline-divider" aria-hidden="true">/</span><span>Systems thinking</span><span class="discipline-divider" aria-hidden="true">/</span><span>Event coordination</span>
+      <span>UI/UX &amp; prototyping</span><span class="discipline-divider" aria-hidden="true">/</span><span>Data visualization</span><span class="discipline-divider" aria-hidden="true">/</span><span>Systems thinking</span><span class="discipline-divider" aria-hidden="true">/</span><span>SQL &amp; databases</span>
     </div>
 
     <section class="work-section page-width section-space" id="work" aria-labelledby="work-title">
@@ -52,46 +55,49 @@
         <p class="section-description">Work across design, data, research, and community — from early concepts to prototypes and dashboards.</p>
       </div>
       <div class="project-grid">
-        <details class="project-card project-access" id="project-access">
+        <details class="project-card project-library" id="project-library-database">
           <summary>
             <div class="project-cover" aria-hidden="true">
-              <div class="cover-top"><span>ACCESS</span><span>01</span></div>
-              <p class="cover-title">A more<br>accessible<br><span>journey.</span></p>
-              <div class="cover-bottom"><span>INCLUSIVE BY INTENT</span><span class="cover-symbol">↗</span></div>
+              <div class="cover-top"><span>LIBRARY DATABASE</span><span>01</span></div>
+              <img class="cover-erd" src="./assets/projects/library-database/library-erd.jpg" alt="" width="1150" height="354" loading="lazy" decoding="async">
+              <div class="cover-bottom"><span>DATA MODELING &amp; SQL</span><span class="cover-symbol">↗</span></div>
             </div>
             <div class="project-info">
-              <p class="project-category">UI/UX PROTOTYPE</p>
-              <h3>ACCESS</h3>
-              <p>Helping people with mobility challenges plan their journeys with accessibility and support in mind.</p>
-              <div class="project-tags"><span>User research</span><span>Experience design</span></div>
-              <span class="project-read"><span class="when-closed">Read project brief</span><span class="when-open">Close project brief</span><span class="plus" aria-hidden="true"></span></span>
+              <p class="project-category">DATABASE FUNDAMENTALS</p>
+              <h3>Library Database</h3>
+              <p>Connecting library membership, books, loans, returns, and fines through a data model and documented SQL exercises.</p>
+              <div class="project-tags"><span>SQL</span><span>Data modeling</span><span>Oracle APEX</span></div>
+              <span class="project-read"><span class="when-closed">View model &amp; queries</span><span class="when-open">Close project brief</span><span class="plus" aria-hidden="true"></span></span>
             </div>
           </summary>
           <div class="project-detail">
-            <div><h4>The question</h4><p>How can someone plan a comfortable trip when accessibility information is scattered and assistance may be uncertain?</p></div>
-            <div><h4>Project direction</h4><p>Explore destination accessibility information and support needs at critical points, such as entering buildings, navigating unfamiliar places, and boarding transport.</p></div>
-            <div><h4>Scope &amp; deliverable</h4><p>A student UI/UX project with prototype screens for people with mobility challenges and their companions. The design explores personal mobility preferences, trip planning, and support throughout a journey.</p></div>
+            <div><h4>Project scope</h4><p>Business process mapping, a six-entity ERD, a data dictionary, and exercises covering DDL/DML, filtering, joins, aggregates, subqueries, and views.</p></div>
+            <div><h4>My contribution</h4><p>Listed as the person responsible for registration in the team's process worksheet. My individual sessions 13–14 submission documents SQL selection, calculated columns, filtering, sorting, and joins.</p></div>
+            <div><h4>Database environments</h4><p>SQL exercises documented in Oracle APEX and CockroachDB, with separate Apache Cassandra setup and CQL practice. The ERD was created with Visual Paradigm.</p></div>
+            <a class="case-image-link" href="./projects/library-database.html" aria-label="Explore the Library Database model and documented SQL results"><img src="./assets/projects/library-database/library-erd.jpg" alt="Original Library Database ER diagram with six connected entities" width="1150" height="354" loading="lazy" decoding="async"></a>
+            <a class="button button-dark" href="./projects/library-database.html">View model &amp; queries <span aria-hidden="true">↗</span></a>
           </div>
         </details>
         <details class="project-card project-budget" id="project-budgetwise">
           <summary>
             <div class="project-cover" aria-hidden="true">
               <div class="cover-top"><span>BUDGETWISE</span><span>02</span></div>
-              <p class="cover-title">Every<br>transaction.<br><span>In focus.</span></p>
-              <div class="cover-bottom"><span>FINANCIAL DASHBOARD</span><span class="cover-symbol">↗</span></div>
+              <img class="cover-dashboard" src="./assets/projects/budgetwise/dashboard-charts.png" alt="" width="474" height="304" loading="lazy" decoding="async">
+              <div class="cover-bottom"><span>DASHBOARD &amp; PRESENTATION</span><span class="cover-symbol">↗</span></div>
             </div>
             <div class="project-info">
               <p class="project-category">EXCEL DASHBOARD</p>
               <h3>BudgetWise</h3>
-              <p>Bringing income, expenses, and transfers together to make personal financial activity easier to explore.</p>
+              <p>Bringing income, expenses, and transaction patterns together to make personal financial activity easier to explore.</p>
               <div class="project-tags"><span>Excel</span><span>Interactive dashboard</span></div>
-              <span class="project-read"><span class="when-closed">Read project brief</span><span class="when-open">Close project brief</span><span class="plus" aria-hidden="true"></span></span>
+              <span class="project-read"><span class="when-closed">View dashboard &amp; presentation</span><span class="when-open">Close project brief</span><span class="plus" aria-hidden="true"></span></span>
             </div>
           </summary>
           <div class="project-detail">
             <div><h4>The question</h4><p>How can a list of transactions become a clear picture of income, spending, and financial habits?</p></div>
-            <div><h4>Dashboard approach</h4><p>Combine income, expense, and transfer indicators with monthly trends, category breakdowns, and payment-method views.</p></div>
-            <div><h4>Interaction</h4><p>Use year, payment, and category slicers to explore different views of the data, supported by Excel pivot tables and GETPIVOTDATA.</p></div>
+            <div><h4>Dashboard approach</h4><p>Combine income, expense, balance, transaction-count, and expense-ratio indicators with monthly trends, category breakdowns, payment methods, and activity by location.</p></div>
+            <div><h4>Explore the results</h4><p>View the dashboard screenshots, the initial mockup, and the full 14-slide group presentation. The screenshots document the Excel dashboard and its filters.</p></div>
+            <a class="button button-dark" href="./projects/budgetwise.html">View BudgetWise presentation <span aria-hidden="true">↗</span></a>
           </div>
         </details>
         <details class="project-card project-cars" id="project-used-cars">
@@ -119,10 +125,34 @@
         </details>
       </div>
 
+      <section class="recognition-highlight recognition-saul" id="recognition-isfest" aria-labelledby="isfest-title">
+        <div class="recognition-copy">
+          <p class="eyebrow">UI/UX COMPETITION / ISFEST 2026</p>
+          <h3 id="isfest-title">2nd Place<span class="blue">.</span></h3>
+          <p class="recognition-event">SAUL — Spending Awareness and Understanding Loop</p>
+          <p class="recognition-meta">Information System Festival 2026 · Team ShowTime</p>
+          <p>Our UI/UX concept is designed to help young adults pause before an impulse purchase, connect spending decisions to saving goals, and reflect on their habits.</p>
+          <div class="case-actions"><a class="button button-dark" href="./projects/saul.html">Explore SAUL <span aria-hidden="true">↗</span></a><a class="case-text-link" href="./assets/projects/saul/second-place-certificate.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a></div>
+        </div>
+        <a class="recognition-certificate" href="./assets/projects/saul/second-place-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="Open the ISFEST 2026 second-place UI/UX certificate"><img src="./assets/projects/saul/second-place-certificate.png" alt="ISFEST 2026 UI/UX competition certificate displaying Juara 2, or second place." width="795" height="563" loading="lazy" decoding="async"></a>
+      </section>
+
+      <section class="recognition-highlight" id="recognition" aria-labelledby="recognition-title">
+        <div class="recognition-copy">
+          <p class="eyebrow">COMPETITION HIGHLIGHT / 2026</p>
+          <h3 id="recognition-title">Semifinalist<span class="blue">.</span></h3>
+          <p class="recognition-event">Undergraduate Business Case Competition 2026</p>
+          <p class="recognition-meta">Makarapreneur HIPMI PT UI · <time datetime="2026-05-19">19 May 2026</time></p>
+          <p>With team Gangnam Style, I developed <strong>Go “FRESH” With NutriSari</strong>, a business case proposal connecting consumer research with product, retail, and engagement strategies for NutriSari Tea Series.</p>
+          <div class="case-actions"><a class="button button-dark" href="./projects/makarapreneur-bcc.html">Explore the business case <span aria-hidden="true">↗</span></a><a class="case-text-link" href="./assets/projects/makarapreneur-bcc/semifinalist-certificate.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a></div>
+        </div>
+        <a class="recognition-certificate" href="./assets/projects/makarapreneur-bcc/semifinalist-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="Open Kennes Jansen's Makarapreneur 2026 semifinalist certificate"><img src="./assets/projects/makarapreneur-bcc/semifinalist-certificate.png" alt="Certificate awarded to Kennes Jansen as a semifinalist in the Undergraduate Business Case Competition 2026, organized by Makarapreneur HIPMI PT UI, dated 19 May 2026." width="2000" height="1414" loading="lazy" decoding="async"></a>
+      </section>
+
       <section class="project-archive" aria-labelledby="archive-title">
         <div class="archive-heading"><div><p class="eyebrow">BEYOND THE HIGHLIGHTS</p><h3 id="archive-title">More projects &amp; explorations.</h3></div><p>Open a project to see its focus, scope, and stage.</p></div>
         <div class="archive-list">
-          <details class="archive-project" id="project-aqquas" open>
+          <details class="archive-project" id="project-aqquas">
             <summary><span class="archive-number" aria-hidden="true">04</span><span class="archive-main"><span class="archive-name">Aqquas</span><span class="archive-description">Fish-care videos, aquarium supplies, and community discussion in one mobile experience.</span></span><span class="archive-meta"><span class="stage-label">UX design</span><span>Team project · 2024/2025</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
               <div><h4>Design focus</h4><p>A mobile app concept for aquarium hobbyists looking for care guidance, equipment, and a place to exchange questions and experience.</p></div>
@@ -134,7 +164,7 @@
               </div>
             </div>
           </details>
-          <details class="archive-project" id="project-vincraft" open>
+          <details class="archive-project" id="project-vincraft">
             <summary><span class="archive-number" aria-hidden="true">05</span><span class="archive-main"><span class="archive-name">VinCraft Community</span><span class="archive-description">A Minecraft community website for sharing creations and managing content.</span></span><span class="archive-meta"><span class="stage-label">Web application</span><span>Programming for Business</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
               <div><h4>Project scope</h4><p>A coursework application connecting content discovery, publishing, and community interaction, with separate workflows for visitors, registered crafters, and administrators.</p></div>
@@ -146,7 +176,7 @@
               </div>
             </div>
           </details>
-          <details class="archive-project" id="project-knowl" open>
+          <details class="archive-project" id="project-knowl">
             <summary><span class="archive-number" aria-hidden="true">06</span><span class="archive-main"><span class="archive-name">Knowl Online</span><span class="archive-description">Elementary learning through lesson resources, quizzes, feedback, and learning history.</span></span><span class="archive-meta"><span class="stage-label">Education application</span><span>Programming for Business · Group 6</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
               <div><h4>Learning focus</h4><p>A group coursework application for elementary school students, organized by grade and subject and framed around SDG 4: Quality Education.</p></div>
@@ -158,19 +188,19 @@
               </div>
             </div>
           </details>
-          <details class="archive-project" id="project-library-database" open>
-            <summary><span class="archive-number" aria-hidden="true">07</span><span class="archive-main"><span class="archive-name">Library Database</span><span class="archive-description">A library data model with documented SQL exercises for membership, books, loans, returns, and fines.</span></span><span class="archive-meta"><span class="stage-label">Database coursework</span><span>Database Fundamentals · Group 6 LC11</span></span><span class="plus" aria-hidden="true"></span></summary>
+          <details class="archive-project" id="project-access">
+            <summary><span class="archive-number" aria-hidden="true">07</span><span class="archive-main"><span class="archive-name">ACCESS</span><span class="archive-description">Helping people with mobility challenges plan their journeys with accessibility and support in mind.</span></span><span class="archive-meta"><span class="stage-label">UI/UX prototype</span><span>Figma · Experience design</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
-              <div><h4>Project scope</h4><p>Business process mapping, a six-entity ERD, a data dictionary, and exercises covering DDL/DML, filtering, joins, aggregates, subqueries, and views.</p></div>
-              <div><h4>My contribution</h4><p>Listed as the person responsible for registration in the team's process worksheet. My individual sessions 13–14 submission documents SQL selection, calculated columns, filtering, sorting, and joins.</p></div>
-              <div><h4>Database environments</h4><p>SQL exercises documented in Oracle APEX and CockroachDB, with separate Apache Cassandra setup and CQL practice. The ERD was created with Visual Paradigm.</p></div>
+              <div><h4>The question</h4><p>How can someone plan a comfortable trip when accessibility information is scattered and assistance may be uncertain?</p></div>
+              <div><h4>Project direction</h4><p>Explore destination accessibility information and support needs at critical points, such as entering buildings, navigating unfamiliar places, and boarding transport.</p></div>
+              <div><h4>Explore the designs</h4><p>Nine original Figma screens cover mobility preferences, destination search, companion discovery, accessibility alerts, and family and companion views.</p></div>
               <div class="project-output">
-                <a class="library-cover" href="./projects/library-database.html" aria-label="Explore the Library Database model and SQL examples"><span>LIBRARY DATABASE</span><img src="./assets/projects/library-database/library-erd.jpg" alt="Original Library Database ER diagram with six connected entities" width="1150" height="354" loading="lazy" decoding="async"><span>DATA MODELING · SQL</span></a>
-                <div><p class="eyebrow">EXPLORE THE DATABASE WORK</p><h4>See the model and documented results.</h4><p>Inspect the original ERD and four SQL examples, with individual and group work identified.</p><a class="button button-dark" href="./projects/library-database.html">View model &amp; queries <span aria-hidden="true">↗</span></a></div>
+                <a class="access-cover" href="./projects/access.html" aria-label="Explore the ACCESS interface designs"><span>ACCESS · UI/UX PROTOTYPE</span><span class="cover-screens"><img src="./assets/projects/access/home.png" alt="ACCESS home design with a mobility profile and destination recommendations" width="430" height="932" loading="lazy" decoding="async"><img src="./assets/projects/access/explore.png" alt="ACCESS destination search design with a map and accessibility information" width="430" height="932" loading="lazy" decoding="async"></span><span>9 ORIGINAL DESIGN SCREENS</span></a>
+                <div><p class="eyebrow">EXPLORE THE DESIGN</p><h4>Plan the destination and the support.</h4><p>Browse the nine-screen gallery and open the original prototype in Figma.</p><a class="button button-dark" href="./projects/access.html">View ACCESS designs <span aria-hidden="true">↗</span></a></div>
               </div>
             </div>
           </details>
-          <details class="archive-project" id="project-solaria-database" open>
+          <details class="archive-project" id="project-solaria-database">
             <summary><span class="archive-number" aria-hidden="true">08</span><span class="archive-main"><span class="archive-name">Solaria Database</span><span class="archive-description">Restaurant operations modeled through connected data, Oracle SQL, and an inventory interface concept.</span></span><span class="archive-meta"><span class="stage-label">Database case study</span><span>DIM · Group 3</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
               <div><h4>Project scope</h4><p>An academic team case study covering outlets, menu items, recipes, purchasing, inventory, transactions, customers, and staff.</p></div>
@@ -182,7 +212,7 @@
               </div>
             </div>
           </details>
-          <details class="archive-project" id="project-stsport" open>
+          <details class="archive-project" id="project-stsport">
             <summary><span class="archive-number" aria-hidden="true">09</span><span class="archive-main"><span class="archive-name">StSport</span><span class="archive-description">Sports court booking and equipment purchasing, from system analysis to interface design.</span></span><span class="archive-meta"><span class="stage-label">Systems analysis &amp; design</span><span>ISAD · 2025/2026</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail">
               <div><h4>Project scope</h4><p>A group coursework system design for customers booking sports courts and buying equipment, staff confirming reservations, and administrators preparing reports.</p></div>
@@ -206,25 +236,50 @@
             <summary><span class="archive-number" aria-hidden="true">12</span><span class="archive-main"><span class="archive-name">Oracle Cloud Database</span><span class="archive-description">Coursework connecting database monitoring, spatial analysis, and machine learning.</span></span><span class="archive-meta"><span class="stage-label">Coursework</span><span>Cloud &amp; data · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail"><div><h4>Scope</h4><p>Explore database activity monitoring and practical uses of Oracle Spatial, Oracle Machine Learning, and Oracle Graph.</p></div><div><h4>Case work</h4><p>Campus location analysis and an Iris species classification exercise structured with the CRISP-DM framework.</p></div><div><h4>Deliverable</h4><p>Individual lab and final-exam documentation containing explanations and implementation screenshots.</p></div></div>
           </details>
-          <details class="archive-project" id="project-hadoop-pyspark">
-            <summary><span class="archive-number" aria-hidden="true">13</span><span class="archive-main"><span class="archive-name">Hadoop &amp; PySpark</span><span class="archive-description">Hands-on exploration of a big-data processing environment.</span></span><span class="archive-meta"><span class="stage-label stage-progress">In progress</span><span>Big data · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
-            <div class="archive-detail"><div><h4>Learning focus</h4><p>Work through environment setup, command-line execution, and practical use of Hadoop and PySpark.</p></div><div><h4>Current scope</h4><p>Implementation practice and troubleshooting as part of ongoing big-data coursework.</p></div><div><h4>Tools</h4><p>Hadoop, PySpark, and a local command-line environment.</p></div></div>
-          </details>
           <details class="archive-project" id="project-financial-literacy">
-            <summary><span class="archive-number" aria-hidden="true">14</span><span class="archive-main"><span class="archive-name">Digital &amp; Financial Literacy</span><span class="archive-description">An educational poster project about financial habits and online-gambling prevention.</span></span><span class="archive-meta"><span class="stage-label">Poster project</span><span>Education &amp; design · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="archive-number" aria-hidden="true">13</span><span class="archive-main"><span class="archive-name">Digital &amp; Financial Literacy</span><span class="archive-description">An educational poster project about financial habits and online-gambling prevention.</span></span><span class="archive-meta"><span class="stage-label">Poster project</span><span>Education &amp; design · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail"><div><h4>The focus</h4><p>Help young people understand online-gambling risks through digital literacy and more intentional financial habits.</p></div><div><h4>My involvement</h4><p>Team member in an LIDM digital educational-poster project.</p></div><div><h4>Deliverables</h4><p>A poster and supporting proposal developed around “Cerdas Digital, Bijak Finansial” and the “Jangan Tersesat di Dunia Finansial” campaign direction.</p></div></div>
           </details>
           <details class="archive-project" id="project-insight-warmilla">
-            <summary><span class="archive-number" aria-hidden="true">15</span><span class="archive-main"><span class="archive-name">INSIGHT 2026 — Warmilla</span><span class="archive-description">Digital-transformation support shaped around a small food business.</span></span><span class="archive-meta"><span class="stage-label">Community project</span><span>Business analysis · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="archive-number" aria-hidden="true">14</span><span class="archive-main"><span class="archive-name">INSIGHT 2026 — Warmilla</span><span class="archive-description">Digital-transformation support shaped around a small food business.</span></span><span class="archive-meta"><span class="stage-label">Community project</span><span>Business analysis · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail"><div><h4>The context</h4><p>Warmilla’s digital needs were assessed through the ISACA Student Group BINUS INSIGHT program.</p></div><div><h4>My involvement</h4><p>Volunteer team member helping identify business problems and explore suitable digital solutions.</p></div><div><h4>Project work</h4><p>Assessments and weekly reports covering digital presence, branding, promotional content, and customer communication.</p></div></div>
           </details>
           <details class="archive-project" id="project-beelingua">
-            <summary><span class="archive-number" aria-hidden="true">16</span><span class="archive-main"><span class="archive-name">Beelingua Learning Posters</span><span class="archive-description">English grammar explanations made easier to scan and review.</span></span><span class="archive-meta"><span class="stage-label">Poster series</span><span>Learning content · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <summary><span class="archive-number" aria-hidden="true">15</span><span class="archive-main"><span class="archive-name">Beelingua Learning Posters</span><span class="archive-description">English grammar explanations made easier to scan and review.</span></span><span class="archive-meta"><span class="stage-label">Poster series</span><span>Learning content · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
             <div class="archive-detail"><div><h4>The focus</h4><p>Present grammar through concise explanations, sentence patterns, examples, and comparisons of common mistakes.</p></div><div><h4>My contribution</h4><p>Created and revised the learning posters for use in mentoring.</p></div><div><h4>Deliverable</h4><p>A seven-page poster series covering topics such as the past tense, irregular verbs, past-tense questions, and was/were.</p></div></div>
           </details>
-          <details class="archive-project" id="project-purchase-companion">
-            <summary><span class="archive-number" aria-hidden="true">17</span><span class="archive-main"><span class="archive-name">Purchase-Decision Companion</span><span class="archive-description">A financial-competition concept for more intentional purchase decisions.</span></span><span class="archive-meta"><span class="stage-label stage-concept">Concept exploration</span><span>Behavior &amp; UX · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
-            <div class="archive-detail"><div><h4>The question</h4><p>How might a pause, a reflective question, or a reminder of a personal goal help someone reconsider an unplanned purchase?</p></div><div><h4>Ideas being explored</h4><p>FOMO Profile, Trend Intelligence, Purchase Confirmation, Dream Buy, Reflection Streak, and Post-Purchase Reflection.</p></div><div><h4>Stage</h4><p>Early product and MVP exploration for a financial competition, supported by desk research. Behavioral effects remain hypotheses to test.</p></div></div>
+          <details class="archive-project" id="project-makarapreneur-bcc">
+            <summary><span class="archive-number" aria-hidden="true">16</span><span class="archive-main"><span class="archive-name">Go “FRESH” With NutriSari</span><span class="archive-description">A consumer research and growth strategy proposal for NutriSari Tea Series.</span></span><span class="archive-meta"><span class="stage-label stage-achievement">BCC semifinalist</span><span>Makarapreneur · 2026</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <div class="archive-detail">
+              <div><h4>The business case</h4><p>Explore how NutriSari Tea Series could become more relevant to young consumers through product awareness, retail visibility, convenience, and repeat engagement.</p></div>
+              <div><h4>My involvement</h4><p>Member of team Gangnam Style, alongside Adrian Aulia and Faiz Zaldi. Our submission brings together consumer research, market analysis, and the five-part FRESH strategy.</p></div>
+              <div><h4>Competition result</h4><p>Semifinalist in the Undergraduate Business Case Competition 2026, organized by Makarapreneur HIPMI PT UI. Certificate dated 19 May 2026.</p></div>
+              <a class="button button-dark" href="./projects/makarapreneur-bcc.html">View proposal &amp; certificate <span aria-hidden="true">↗</span></a>
+            </div>
+          </details>
+          <details class="archive-project" id="project-snapcash">
+            <summary><span class="archive-number" aria-hidden="true">17</span><span class="archive-main"><span class="archive-name">SnapCash</span><span class="archive-description">Planning a POS and business management system for Indonesian MSMEs.</span></span><span class="archive-meta"><span class="stage-label">Project management plan</span><span>ISPM · Group 3 · 2025/2026</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <div class="archive-detail">
+              <div><h4>The project</h4><p>An integrated POS concept connecting transactions, inventory, financial reporting, and business analytics, with a focus on small food and beverage businesses.</p></div>
+              <div><h4>My role</h4><p>Named as Scrum Master in the project charter. The risk plan assigns me oversight of sprint delays, testing scope, and team workload.</p></div>
+              <div><h4>Planning outputs</h4><p>A product backlog, six-sprint plan, WBS, Gantt chart, schedule analysis, budget, risk register, stakeholder communication plan, and growth projections.</p></div>
+              <div class="project-output">
+                <a href="./projects/snapcash.html" aria-label="Explore the SnapCash project management plan"><img src="./assets/projects/snapcash/gantt-chart.jpeg" alt="Original SnapCash Gantt chart showing planned tasks from project initiation through testing and deployment." width="1553" height="708" loading="lazy" decoding="async"></a>
+                <div><p class="eyebrow">EXPLORE THE PROJECT PLAN</p><h4>From scope to a delivery plan.</h4><p>View the original WBS and Gantt chart, a 65-slide presentation, and the complete 51-page report.</p><a class="button button-dark" href="./projects/snapcash.html">View project &amp; documents <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </div>
+          </details>
+          <details class="archive-project" id="project-saul">
+            <summary><span class="archive-number" aria-hidden="true">18</span><span class="archive-main"><span class="archive-name">SAUL</span><span class="archive-description">A moment to pause, reflect, and connect spending decisions to saving goals.</span></span><span class="archive-meta"><span class="stage-label stage-achievement">2nd place · UI/UX</span><span>ISFEST 2026 · ShowTime</span></span><span class="plus" aria-hidden="true"></span></summary>
+            <div class="archive-detail">
+              <div><h4>The design question</h4><p>How can an app help young adults reconsider impulse purchases and make room for their saving goals?</p></div>
+              <div><h4>My involvement</h4><p>Member of Team ShowTime with Adrian Aulia Pulungan, Christian Andrew, and Muhammad Faiz Zaldi. Our UI/UX competition project earned second place at ISFEST 2026.</p></div>
+              <div><h4>Design outputs</h4><p>A Figma prototype and brochure exploring daily spending, personal and shared saving goals, reflection, custom rules, and a pause before online checkout.</p></div>
+              <div class="project-output">
+                <a class="access-cover saul-cover" href="./projects/saul.html" aria-label="Explore the SAUL UI/UX project"><span>SAUL · ISFEST 2026</span><span class="cover-screens"><img src="./assets/projects/saul/home.png" alt="SAUL home design with a daily spending budget and saving streak" width="435" height="874" loading="lazy" decoding="async"><img src="./assets/projects/saul/goals.png" alt="SAUL goals design with saving targets and progress" width="435" height="874" loading="lazy" decoding="async"></span><span>2ND PLACE · UI/UX COMPETITION</span></a>
+                <div><p class="eyebrow">EXPLORE THE DESIGN</p><h4>Make room for a more intentional choice.</h4><p>View six interface designs, the competition brochure, and the second-place certificate.</p><a class="button button-dark" href="./projects/saul.html">View SAUL &amp; certificate <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </div>
           </details>
         </div>
       </section>
@@ -232,24 +287,56 @@
 
     <section class="experience-section section-space" id="experience" aria-labelledby="experience-title">
       <div class="page-width experience-layout">
-        <div class="experience-intro"><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">Learning<br>by doing<span class="blue">.</span></h2><p>From daily operations to campus events, I enjoy turning plans into something people can rely on.</p></div>
+        <div class="experience-intro"><p class="eyebrow">02 / SELECTED EXPERIENCE</p><h2 id="experience-title">Learning<br>by doing<span class="blue">.</span></h2><p>Experience in education, event operations, and business support.</p></div>
         <div class="experience-list">
-          <article class="experience-item"><div class="experience-meta"><span>HIMSISFO BINUS</span></div><h3>Education Coordinator</h3></article>
-          <article class="experience-item"><div class="experience-meta"><span>HIMSISFO</span><span>2026</span></div><h3>Equipment Division Coordinator</h3><p class="experience-projects">LDKCP: LUNAR &amp; BALON: NOVA</p><p>Coordinated equipment, transportation, and technical needs, while serving as the main operator for both events.</p></article>
-          <article class="experience-item"><div class="experience-meta"><span>STARINDO ELEKTRONIK PRIMA</span><span>Approx. 1 year</span></div><h3>Online Shop Administrator</h3><p>Gained hands-on experience in online shop operations through approximately one year of administrative work.</p></article>
-          <article class="experience-item"><div class="experience-meta"><span>ISG INSIGHT</span><span>2026</span></div><h3>Volunteer</h3><p>Helped small businesses identify problems and explore system-based solutions suited to their operations.</p></article>
-          <article class="experience-item"><div class="experience-meta"><span>PKM BASIC</span><span>2025</span></div><h3>Volunteer</h3><p>Taught elementary school students swimming fundamentals and helped supervise them during pool practice.</p></article>
+          <article class="experience-item"><div class="experience-meta"><span>HIMSISFO BINUS</span><span>Feb 2026–present</span></div><h3>Education Coordinator</h3><p>Guide educational content for HIMSISFO's Instagram, reviewing articles for accuracy, relevance, and clarity.</p></article>
+          <article class="experience-item"><div class="experience-meta"><span>HIMSISFO BINUS</span><span>2026</span></div><h3>Equipment &amp; Logistics Coordinator</h3><p class="experience-projects">LDKCP: LUNAR &amp; BALON: NOVA</p><p>Coordinate equipment, transport, and technical needs, and serve as the main event operator.</p></article>
+          <article class="experience-item"><div class="experience-meta"><span>STARINDO ELEKTRONIK PRIMA</span><span>Approx. 1 year</span></div><h3>Online Shop Administrator</h3><p>Supported daily online shop administration.</p></article>
+          <article class="experience-item"><div class="experience-meta"><span>ISG INSIGHT</span><span>May–Jul 2026</span></div><h3>Volunteer</h3><p>Helped small businesses identify operational problems and explore system-based solutions.</p></article>
+          <a class="source-link" href="https://www.linkedin.com/in/kennes-jansen" target="_blank" rel="noopener noreferrer">More experience on LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
     <section class="about-section page-width section-space" id="about" aria-labelledby="about-title">
       <div class="about-heading"><p class="eyebrow">03 / A LITTLE ABOUT ME</p><h2 id="about-title">Start with why.<br>Stay curious<span class="blue">.</span></h2><div class="education-note"><span class="education-mark" aria-hidden="true">IS</span><div><strong>Information Systems</strong><span>BINUS University · Kemanggisan</span></div></div></div>
-      <div class="about-copy"><p class="about-lead">Hi, I'm Kennes — an Information Systems student specializing in Business Intelligence, with a habit of understanding the problem before jumping to a solution.</p><p>I explore the intersection of people, business, and technology through UI/UX projects, data visualization, and student organizations. I enjoy asking questions, working with a team, and making ideas more concrete.</p><p>As a member of the Information Systems Case Study Club, I take part in competitions and practice critical thinking. During my time at Bina Nusantara Computer Club in 2024–2025, I worked on application prototypes and joined weekly classes.</p><a class="source-link" href="https://www.linkedin.com/in/kennes-jansen" target="_blank" rel="noopener noreferrer">Find me on LinkedIn <span aria-hidden="true">↗</span></a><div class="toolbox"><h3>Tools I work with</h3><div class="tool-tags"><span>Figma</span><span>Microsoft Excel</span><span>Tableau</span><span>vMix</span></div></div></div>
+      <div class="about-copy">
+        <p class="about-lead">Hi, I'm Kennes. I study Information Systems at BINUS University and enjoy turning business problems into designs and data insights.</p>
+        <p>Through the Information Systems Case Study Club, I take part in competitions and practice case analysis. At BNCC (2024–2025), I explored application prototyping through weekly technology classes.</p>
+        <div class="toolbox"><h3>Tools I work with</h3><div class="tool-tags"><span>Figma</span><span>Microsoft Excel</span><span>Tableau</span><span>Oracle SQL Developer</span></div></div>
+        <section class="cv-downloads" id="cv" aria-labelledby="cv-title">
+          <h3 id="cv-title">My CV</h3>
+          <p>Preview online or download a PDF.</p>
+          <div class="cv-options">
+            <div class="cv-option">
+              <h4>English</h4>
+              <div class="cv-option-actions">
+                <a class="cv-link" href="./cv.html" hreflang="en" aria-label="Preview English CV">Preview <span aria-hidden="true">→</span></a>
+                <a class="case-text-link" href="./assets/cv/kennes-jansen-cv-english.pdf?v=68e4d54d" download="Kennes-Jansen-CV-English.pdf" type="application/pdf" hreflang="en" aria-label="Download English CV as PDF">Download PDF <span aria-hidden="true">↓</span></a>
+              </div>
+            </div>
+            <div class="cv-option">
+              <h4 lang="id">Bahasa Indonesia</h4>
+              <div class="cv-option-actions">
+                <a class="cv-link" href="./cv-indonesia.html" hreflang="id" aria-label="Preview Indonesian CV">Preview <span aria-hidden="true">→</span></a>
+                <a class="case-text-link" href="./assets/cv/kennes-jansen-cv-indonesia.pdf?v=fca70384" download="Kennes-Jansen-CV-Indonesia.pdf" type="application/pdf" hreflang="id" aria-label="Download Indonesian CV as PDF">Download PDF <span aria-hidden="true">↓</span></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </section>
 
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="page-width contact-inner"><div><p class="eyebrow">HAVE A PROJECT OR AN IDEA?</p><h2 id="contact-title">Let's make<br>something useful.</h2></div><a class="contact-link" href="mailto:kennes.jansen@binus.ac.id"><span class="contact-arrow" aria-hidden="true">↗</span><span>Say hello</span><span class="contact-email">kennes.jansen@binus.ac.id</span></a></div>
+      <div class="page-width contact-inner">
+        <div><p class="eyebrow">HAVE A PROJECT OR AN IDEA?</p><h2 id="contact-title">Let's make<br>something useful.</h2></div>
+        <ul class="contact-options" aria-label="Contact options">
+          <li><a class="contact-method" href="https://www.instagram.com/kenneeeees/" target="_blank" rel="noopener noreferrer"><span class="contact-platform">Instagram</span><span class="contact-value">@kenneeeees</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-method" href="https://wa.me/6287871205026" target="_blank" rel="noopener noreferrer"><span class="contact-platform">WhatsApp</span><span class="contact-value">0878 7120 5026</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-method" href="https://www.linkedin.com/in/kennes-jansen" target="_blank" rel="noopener noreferrer"><span class="contact-platform">LinkedIn</span><span class="contact-value">Kennes Jansen</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-method" href="mailto:kennesjansen6@gmail.com"><span class="contact-platform">Email</span><span class="contact-value">kennesjansen6@gmail.com</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="site-footer page-width"><a class="footer-name" href="#home">Kennes Jansen<span class="blue">.</span></a><p>© 2026 Kennes Jansen</p><a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>

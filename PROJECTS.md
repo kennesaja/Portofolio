@@ -1,28 +1,81 @@
 # Inventaris proyek portofolio Kennes Jansen
 
-Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
+Daftar ini memuat 18 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC dan ISFEST memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
 
 | No. | Proyek | Status pada website | Fokus |
 | --- | --- | --- | --- |
-| 01 | ACCESS | UI/UX prototype | Perencanaan perjalanan, informasi aksesibilitas, dan kebutuhan dukungan bagi pengguna dengan hambatan mobilitas. |
-| 02 | BudgetWise | Excel dashboard | Pendapatan, pengeluaran, transfer, tren bulanan, kategori, dan metode pembayaran. |
+| 01 | Library Database | Database coursework | Proses perpustakaan, ERD enam entitas, kamus data, serta latihan SQL/CQL dan hasil query yang didokumentasikan. |
+| 02 | BudgetWise | Excel dashboard | Presentasi 14 slide, dua screenshot dashboard, dan mockup awal dari PDF yang dipilih Kennes. |
 | 03 | Used Car Analysis | Data visualization | Pembersihan Excel, EDA, dashboard Tableau, delapan screenshot, serta analisis 8.506 listing dengan cakupan filter yang dijelaskan. |
 | 04 | Aqquas | UX design | Aplikasi untuk penghobi akuarium: panduan video, toko perlengkapan, forum, serta galeri wireframe dan dokumentasi UX. |
 | 05 | VinCraft Community | Web application | Website komunitas Minecraft berbasis PHP/MySQL, dengan pencarian, publikasi konten, interaksi, moderasi, dan preview antarmuka statis. |
 | 06 | Knowl Online | Education application | Aplikasi belajar SD dengan pemilihan kelas, materi, kuis, skor dan pembahasan, riwayat belajar, serta formulir admin. |
-| 07 | Library Database | Database coursework | Proses perpustakaan, ERD enam entitas, kamus data, serta latihan SQL/CQL dan hasil query yang didokumentasikan. |
+| 07 | ACCESS | UI/UX prototype | Galeri sembilan layar Figma: preferensi mobilitas, destinasi, pendamping, informasi aksesibilitas, keluarga, dan caregiver. |
 | 08 | Solaria Database | Database case study | Studi kasus DIM: model data operasional restoran, 32 definisi tabel Oracle, constraints, trigger, dan mockup inventaris. |
 | 09 | StSport | Systems analysis & design | Studi kasus ISAD: pemesanan lapangan dan peralatan olahraga, model sistem, serta antarmuka pelanggan/staf/admin. |
 | 10 | CHILLIN | Business concept | Konsep bisnis minuman, pengalaman penyajian, persona, prototype, dan revenue stream. |
 | 11 | AI Learning Analytics Acceptance | Research manuscript | Penelitian penerimaan sistem learning analytics berbasis AI; judul manuskrip: Student Acceptance of AI-Driven Learning Analytics System. |
 | 12 | Oracle Cloud Database | Coursework | Monitoring database, Oracle Spatial, OML untuk klasifikasi Iris, dan Oracle Graph. |
-| 13 | Hadoop & PySpark | In progress | Setup, implementasi awal, dan troubleshooting lingkungan big data. |
-| 14 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
-| 15 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
-| 16 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
-| 17 | Purchase-Decision Companion | Concept exploration | Ide kompetisi keuangan dengan refleksi sebelum dan sesudah pembelian. |
+| 13 | Digital & Financial Literacy | Poster project | Poster pendidikan LIDM tentang literasi digital, literasi keuangan, dan pencegahan judi online. |
+| 14 | INSIGHT 2026 — Warmilla | Community project | Asesmen kebutuhan digital dan pendampingan UMKM melalui ISG BINUS. |
+| 15 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
+| 16 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
+| 17 | SnapCash | Project management plan | Proyek ISPM Kelompok 3: peran Scrum Master, backlog, enam sprint, WBS, Gantt, anggaran, risiko, komunikasi, dan dua PDF lengkap. |
+| 18 | SAUL | 2nd place · UI/UX ISFEST 2026 | Prototype Team ShowTime: spending awareness, saving goals, reflection, guardrails, shared saving, dan browser extension; enam layar, brosur, dan sertifikat. |
 
-Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang belum tersedia.
+Profil dan pengalaman pilihan telah disesuaikan dari `Profile.pdf` yang dikirim Kennes. Education Coordinator kini mencantumkan Februari 2026–sekarang dan tanggung jawab menjaga kualitas konten edukasi HIMSISFO. Bagian Experience dibatasi pada empat sorotan; About terdiri dari dua paragraf agar proyek menjadi fokus utama.
+
+Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
+
+## Bukti SAUL — UI/UX ISFEST 2026
+
+- **Sumber:** keterangan Kennes, `image(20261003-044638).png`, dan [file Figma Showtime — ISFEST](https://www.figma.com/design/mdGSumkW2nn7tirye7Eifl/Showtime---ISFEST?node-id=722-6406). Node yang dikirim adalah halaman Brosur; layar aplikasi berada pada halaman `2:2`.
+- **Pencapaian:** juara 2 UI/UX Information System Festival 2026, ditulis sebagai **2nd Place**, bukan 2nd runner-up. Sertifikat menampilkan juara dan nama lomba; identitas peserta tidak tertulis pada foto sertifikat. Keterlibatan Kennes mengikuti keterangannya dan daftar anggota tim pada pitch deck.
+- **Judul dan tim:** SAUL = Spending Awareness and Understanding Loop. Pitch deck node `820:6408` mencantumkan Team ShowTime: Adrian Aulia Pulungan, Christian Andrew, Kennes Jansen, dan Muhammad Faiz Zaldi. Peran ditulis sebagai anggota tim; pembagian tanggung jawab individual belum diberikan.
+- **Konsep:** membantu orang dewasa muda menyadari pola belanja, menghubungkan pengeluaran dengan tujuan menabung, dan berhenti sejenak sebelum pembelian impulsif. Capsule merupakan rekap/refleksi bulanan, bukan tempat menyimpan pembelian tertunda. Guard dan browser extension dijelaskan sebagai usulan interaksi dalam prototype.
+- **Ekspor Figma:** `home.png` (`198:2763`), `goals.png` (`263:3829`), `capsule.png` (`330:7805`), `guard.png` (`343:8888`), `squads.png` (`433:4695`), `browser-extension.png` (`494:10767`), `brochure-front.png` (`724:975`), dan `brochure-back.png` (`724:1317`). Semua ekspor dan sertifikat disalin tanpa perubahan gambar ke `assets/projects/saul/`.
+- **Batas klaim:** prototype lomba, bukan aplikasi produksi. Data uang, transaksi, profil, dan target di layar adalah contoh. Integrasi aplikasi/payment, fungsi AI, dampak penghematan, dan interaksi prototype belum diverifikasi. Statistik eksternal dalam pitch deck tidak dimasukkan ke ringkasan website.
+- **Penempatan:** sorotan penghargaan di atas BCC, entri arsip nomor 18 yang tertutup saat dimuat, dan `projects/saul.html`. Tiga proyek utama tetap Library Database, BudgetWise, dan Used Car Analysis. Konsep Purchase Decision Companion yang sebelumnya dihapus tidak ditambahkan kembali.
+
+## Bukti SnapCash ISPM
+
+- **Sumber:** `Project ISPM SnapCash - Group 3.pdf` (51 halaman) dan `PPT SnapCash - Group 3.pdf` (65 slide), diberikan Kennes untuk ditambahkan ke portofolio.
+- **Mata kuliah dan periode:** Information Systems Project Management; semester genap 2025/2026. Sampul laporan juga memuat teks “Marketing Data Analytics”, tetapi identitas mata kuliah pada bagian bawah sampul dan keterangan Kennes menyebut ISPM.
+- **Kelompok:** Group 3; Christofer Marveleous Krisdianto, Nabila Ullivia Fatimah, Kennes Jansen, Angelo, dan Meini Rusiadi.
+- **Peran pribadi:** Scrum Master pada charter (laporan halaman 9; presentasi slide 16). Risk plan mencantumkan Kennes sebagai pemilik risiko R-06 keterlambatan sprint, R-07 testing underscoped, dan R-09 beban kerja anggota (laporan halaman 37; presentasi slide 50).
+- **Penugasan WBS:** desain database, kebutuhan fungsional, inventaris, low-stock alert, dan supplier pada gambar WBS (presentasi slide 38). Pembagian tugas pada sprint backlog, narasi WBS, dan gambar WBS tidak sepenuhnya sama. Website membedakan peran pada charter dari penugasan pada WBS dan tidak menyatakan seluruh modul dikerjakan atau sudah selesai oleh Kennes.
+- **Lingkup manajemen proyek:** 18 backlog item, enam sprint dua mingguan, WBS, Gantt, AON/ADM, critical path/float, rencana anggaran Rp200 juta, risk register, rencana komunikasi, dan proyeksi pertumbuhan. Jadwal charter dimulai Maret–Mei 2026; WBS juga memuat inisiasi pada Februari.
+- **Batas klaim:** dokumen perencanaan ISPM. Status pada WBS menunjukkan analisis selesai dan pengembangan/pengujian masih “To Do”. Log sprint dalam laporan tidak digunakan untuk mengklaim aplikasi telah diuji atau dipublikasikan. Anggaran, harga, target pelanggan, dan proyeksi finansial bukan realisasi bisnis; website hanya menampilkan anggaran sebagai rencana.
+- **Aset publik:** `assets/projects/snapcash/report.pdf` dan `presentation.pdf` identik dengan berkas sumber. `work-breakdown.jpeg` berasal dari xref 513 pada slide 38 (837×698); `gantt-chart.jpeg` berasal dari xref 520 pada slide 40 (1553×708). Gambar diekstrak tanpa perubahan byte.
+- **Penempatan:** entri arsip nomor 17 dan `projects/snapcash.html`, dengan galeri WBS/Gantt, dua penampil PDF, serta tautan buka dan unduh dokumen.
+
+## Bukti Makarapreneur BCC 2026
+
+- **Sumber:** `31.png` dan `MKPR2026_Proposal_Gangam Style_Kennes Jansen (1)_compressed.pdf`, diberikan Kennes untuk portofolio.
+- **Pencapaian:** Semifinalist, Undergraduate Business Case Competition 2026, Makarapreneur HIPMI PT UI. Tanggal sertifikat 19 Mei 2026. Tidak ada peringkat, hadiah, atau jumlah peserta yang ditambahkan.
+- **Judul dan tim:** Go “FRESH” With NutriSari; Gangnam Style, sesuai sampul proposal. Anggota yang tercantum: Kennes Jansen, Adrian Aulia, dan Faiz Zaldi. Nama berkas sumber memakai “Gangam”, tetapi ejaan nama tim pada website mengikuti sampul “GANGNAM STYLE”.
+- **Peran pribadi:** anggota tim. Pembagian tugas atau kepemimpinan tidak dijelaskan oleh sumber, sehingga tidak diklaim.
+- **Lingkup:** survei awal n=87 dan survei lanjutan n=51, observasi lapangan, riset sekunder, STP/PDB, ukuran pasar, perjalanan konsumen, analisis pesaing, FRESH, roadmap, mitigasi risiko, dan proyeksi keuangan. Jumlah responden tidak digabungkan karena identitas unik lintas survei belum diketahui.
+- **Status solusi:** proposal kompetisi. Inisiatif dan angka keuangan merupakan rencana/proyeksi, bukan hasil implementasi yang terukur.
+- **Aset publik:** `semifinalist-certificate.png` identik dengan `31.png`; `proposal.pdf` identik dengan PDF sumber, 40 halaman; `fresh-framework.jpeg` merupakan gambar xref 180 halaman 14 (1236×695); `implementation-roadmap.jpeg` merupakan gambar xref 199 halaman 20 (1073×1075). Gambar diekstrak tanpa perubahan byte.
+- **Penempatan:** sorotan pencapaian setelah tiga kartu utama, entri arsip nomor 16, serta `projects/makarapreneur-bcc.html`. PDF dapat dibaca, dibuka di tab baru, atau diunduh. Sertifikat dan diagram dapat dibuka ukuran penuh.
+
+## Hasil proyek ACCESS
+
+- **Sumber:** file Figma `PRIMETIME` yang ditautkan Kennes, halaman `Hi Fi`. Sembilan layar berwarna diekspor langsung sebagai PNG berukuran 430 × 932; file gambar disalin tanpa menggambar ulang desain.
+- **Materi:** halaman utama, pencarian destinasi, pencarian pendamping, pilihan peran, preferensi mobilitas, laporan aksesibilitas, tampilan keluarga, profil caregiver, serta dashboard pendamping.
+- **Halaman publik:** `projects/access.html`. Tiga layar utama langsung terlihat; enam lainnya berada dalam dua bagian yang dapat dibuka. Semua gambar bisa dibuka pada ukuran aslinya. ACCESS berada pada daftar proyek lainnya, nomor 07, dengan dua thumbnail dan tautan ke galeri lengkap.
+- **Tautan:** tombol Figma menggunakan tautan prototype yang diberikan Kennes. Akses membaca file desain berhasil saat pengambilan gambar; akses tamu dan alur interaksi prototype belum diuji. Galeri lokal tetap tersedia secara mandiri.
+- **Penulisan:** nama, skor, harga, rating, dan ketersediaan pada layar adalah contoh isi prototype. Tidak diklaim sebagai hasil bisnis atau data layanan yang berjalan. Pembagian kontribusi pribadi tidak ditambahkan tanpa konfirmasi.
+
+## Hasil proyek BudgetWise
+
+- **Sumber yang dipilih:** `Dashboard Data Modelling(2).pdf`, sesuai instruksi terbaru Kennes untuk memakai PDF ini saja. File tersebut identik dengan `Dashboard Data Modelling(1).pdf`; entri BudgetWise diperbarui tanpa proyek duplikat.
+- **Materi:** presentasi lengkap 14 slide “Personal Finance Tracker Database”, Kelompok 3, Data Modelling. Kennes tercantum sebagai anggota. Halaman proyek memuat penampil PDF, tombol buka/unduh PDF, dua screenshot dashboard (slide 12–13), dan mockup awal (slide 11).
+- **Aset:** tiga PNG diekstrak langsung dari gambar yang tertanam dalam PDF. PDF dibuat lebih ringan untuk publikasi dengan mempertahankan jumlah, urutan, dimensi, dan teks setiap halaman. File unggahan asli tidak diubah. Ketajaman screenshot mengikuti materi sumber.
+- **Halaman publik:** `projects/budgetwise.html`; dokumen dan gambar berada di `assets/projects/budgetwise/`. Thumbnail grafik muncul pada kartu BudgetWise.
+- **Cakupan:** gambar menunjukkan KPI, pilihan tahun, empat slicer, tren bulanan, kategori pengeluaran, metode pembayaran, dan transaksi menurut lokasi. Ini presentasi hasil dashboard; kontrol Excel tidak berjalan di dalam gambar atau PDF. Workbook Excel dan dua laporan pendamping tidak dimasukkan ke paket publik.
+- **Pemeriksaan:** validasi dilakukan pada struktur HTML, tautan/aset lokal, integritas arsip, dan isi PDF. Interaksi Excel dan tampilan website melalui browser belum diuji untuk pembaruan ini.
 
 ## Materi Used Car Analysis yang dikirim Kennes
 
@@ -125,7 +178,7 @@ Peran Education Coordinator ditambahkan tanpa tanggal atau uraian tugas yang bel
 - **PRIMETIME dan ACCESS:** dokumen `PRIMETIME` yang diperiksa memuat rancangan ACCESS. Keduanya diperlakukan sebagai satu proyek pada versi ini. Jika PRIMETIME juga mempunyai proyek lain yang berbeda, materi tambahan dibutuhkan untuk memisahkannya dengan tepat.
 - **Poster literasi:** “Cerdas Digital, Bijak Finansial” dan “Jangan Tersesat di Dunia Finansial” ditampilkan dalam satu entri proyek pendidikan, karena merupakan judul/arah kampanye dari pekerjaan yang sama.
 - **Cloud Database:** lab dan tugas akhir dirangkum menjadi satu entri coursework, dengan beberapa contoh kasus di dalamnya.
-- **LUNAR, NOVA, dan PKM BASIC:** tetap ditampilkan di bagian Experience. Keanggotaan ISCSC dan BNCC tetap tercantum di bagian About.
+- **Pengalaman pilihan:** LUNAR dan NOVA dirangkum dalam satu entri Equipment & Logistics Coordinator. PKM BASIC dan peran organisasi lainnya dapat dilihat melalui LinkedIn. Keanggotaan ISCSC dan pengalaman BNCC tetap diringkas di bagian About.
 
 ## Informasi yang dapat dilengkapi
 
