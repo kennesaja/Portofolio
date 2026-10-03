@@ -151,6 +151,10 @@ details[open] .when-open { display: inline; }
 .recognition-copy .case-actions { gap: 18px 22px; }
 .recognition-certificate { display: block; min-width: 0; border-radius: 4px; }
 .recognition-certificate img { width: 100%; height: auto; border-radius: 4px; }
+.recognition-saul { border-top-color: #7338c9; }
+.recognition-saul .recognition-copy > .eyebrow { color: #6530af; }
+.project-output .saul-cover { background: #efe7fb; }
+.saul-certificate { max-width: 800px; margin-inline: auto; }
 .stage-achievement { color: #765015; background: #f5ecd7; }
 .bcc-framework-list { margin: 0; padding-left: 1.25rem; color: var(--muted); }
 .bcc-framework-list li + li { margin-top: 14px; }

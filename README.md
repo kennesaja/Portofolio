@@ -2,7 +2,13 @@
 
 Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diunggah ke GitHub Pages dan bisa diedit dengan VS Code tanpa instalasi framework.
 
-Versi ini memuat 17 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian semifinalist Makarapreneur BCC 2026 juga ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
+Versi ini memuat 18 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 15 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian juara 2 UI/UX ISFEST 2026 dengan proyek SAUL dan semifinalist Makarapreneur BCC 2026 ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
+
+## Pembaruan SAUL — UI/UX ISFEST 2026
+
+SAUL (Spending Awareness and Understanding Loop) ditambahkan sebagai proyek nomor 18 dan sorotan juara 2 di halaman utama. Halaman `projects/saul.html` memuat enam ekspor layar asli Figma, dua sisi brosur, sertifikat, dan tautan desain. Kennes ditampilkan sebagai anggota Team ShowTime bersama Adrian Aulia Pulungan, Christian Andrew, dan Muhammad Faiz Zaldi. Proyek dijelaskan sebagai konsep/prototype lomba.
+
+Untuk menambahkan pembaruan ini ke website yang sudah ada, ekstrak `kennes-portfolio-isfest-update.zip` lalu unggah seluruh isinya ke akar repository `kennesaja/Portofolio` pada branch `main`. Paket berisi `index.html`, `styles.css`, `README.md`, `PROJECTS.md`, halaman `projects/saul.html`, dan sembilan gambar pada `assets/projects/saul/` (14 file). Pertahankan susunan folder, klik **Commit changes**, dan tunggu deployment GitHub Pages selesai. Gunakan paket terbaru ini setelah pembaruan CV/email sebelumnya agar halaman utama tidak kembali ke versi lama.
 
 ## Profil dan pengalaman pilihan
 
@@ -16,9 +22,9 @@ Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–
 
 Tautan **Preview CV** di bagian pembuka membuka `cv.html`. Bagian About menyediakan pilihan **Preview** dan **Download PDF** untuk bahasa Inggris serta Indonesia. Halaman preview memiliki pilihan bahasa, dua halaman CV yang bisa dibaca dengan menggulir, tautan untuk memperbesar setiap halaman, serta tombol buka dan unduh PDF. Semua tautan berfungsi tanpa JavaScript.
 
-Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(3).pdf` dan `Kennes_Jansen_CV_Indonesia(3).pdf`), disalin tanpa perubahan isi. Empat gambar WebP merupakan hasil render langsung dari dua halaman masing-masing PDF pada 144 dpi, sehingga preview tidak bergantung pada penampil PDF bawaan browser. PDF asli tetap tersedia untuk membaca teks dan mengunduh dokumen.
+Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(5).pdf` dan `Kennes_Jansen_CV_Indonesia(5).pdf`), disalin tanpa perubahan isi. Empat gambar WebP merupakan hasil render langsung dari dua halaman masing-masing PDF pada 144 dpi, sehingga preview tidak bergantung pada penampil PDF bawaan browser. PDF asli tetap tersedia untuk membaca teks dan mengunduh dokumen.
 
-Untuk memperbarui CV nanti, ganti PDF dengan nama yang sama dan buat ulang kedua gambar preview untuk bahasa tersebut agar tampilan dan unduhannya selalu sesuai. Jika jumlah halaman berubah, sesuaikan halaman HTML preview juga.
+Untuk memperbarui CV nanti, ganti PDF dengan nama yang sama dan buat ulang kedua gambar preview untuk bahasa tersebut agar tampilan dan unduhannya selalu sesuai. Perbarui juga parameter versi `?v=` pada tautan PDF dan gambar di `index.html`, `cv.html`, serta `cv-indonesia.html` agar browser meminta berkas terbaru. Jika jumlah halaman berubah, sesuaikan halaman HTML preview juga.
 
 Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu unggah seluruh isinya: `index.html`, `styles.css`, `README.md`, `cv.html`, `cv-indonesia.html`, dan folder `assets` ke akar repository `kennesaja/Portofolio` pada branch `main`. Pertahankan struktur `assets/cv/`; unggah isi ZIP, bukan file ZIP. Paket memuat 11 file, termasuk kedua PDF dan empat gambar preview. Klik **Commit changes** dan tunggu deployment GitHub Pages selesai.
 
@@ -58,10 +64,12 @@ Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu ungg
 | `assets/projects/makarapreneur-bcc/` | Sertifikat PNG, proposal PDF, dan dua diagram JPEG asli dari proposal. |
 | `projects/snapcash.html` | Proyek ISPM SnapCash: peran Scrum Master, rencana proyek, WBS, Gantt, presentasi 65 slide, dan laporan 51 halaman. |
 | `assets/projects/snapcash/` | Dua PDF asli serta gambar WBS dan Gantt dari presentasi. |
+| `projects/saul.html` | Proyek UI/UX SAUL, juara 2 ISFEST 2026: galeri desain, brosur, anggota tim, dan sertifikat. |
+| `assets/projects/saul/` | Enam layar dan dua sisi brosur dari Figma, serta sertifikat juara 2 asli. |
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
-Seluruh 17 ringkasan proyek pada halaman utama dimulai dalam keadaan tertutup. Klik judul/kartu atau tanda **+** untuk membuka detail; klik lagi untuk menutupnya. Ringkasan memakai elemen HTML `details` dan `summary`, sehingga juga bisa dibuka melalui keyboard dan tetap berfungsi meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
+Seluruh 18 ringkasan proyek pada halaman utama dimulai dalam keadaan tertutup. Klik judul/kartu atau tanda **+** untuk membuka detail; klik lagi untuk menutupnya. Ringkasan memakai elemen HTML `details` dan `summary`, sehingga juga bisa dibuka melalui keyboard dan tetap berfungsi meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
 
 Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur melalui `.hero-portrait` di `styles.css`, dengan bingkai portrait dan posisi foto yang mengutamakan wajah. Untuk mengganti foto nanti, ganti file `assets/kennes-jansen.jpeg` atau perbarui jalur `src` dan ukuran gambar pada `index.html`.
 
@@ -72,7 +80,7 @@ Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur 
 | Instagram | @kenneeeees | https://www.instagram.com/kenneeeees/ |
 | WhatsApp | 0878 7120 5026 | https://wa.me/6287871205026 |
 | LinkedIn | Kennes Jansen | https://www.linkedin.com/in/kennes-jansen |
-| Email | kennes.jansen@binus.ac.id | mailto:kennes.jansen@binus.ac.id |
+| Email | kennesjansen6@gmail.com | mailto:kennesjansen6@gmail.com |
 
 Instagram dan nomor WhatsApp memakai informasi yang diberikan Kennes. Nomor WhatsApp ditampilkan dengan format lokal; tautannya menggunakan kode negara Indonesia `62` menggantikan angka `0` awal. Tautan membuka WhatsApp tanpa mengirim pesan otomatis. Semua pilihan kontak berfungsi sebagai tautan HTML dan tidak memerlukan JavaScript.
 

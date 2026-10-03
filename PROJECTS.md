@@ -1,6 +1,6 @@
 # Inventaris proyek portofolio Kennes Jansen
 
-Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
+Daftar ini memuat 18 proyek dan eksplorasi yang ditampilkan pada website. Daftar ini belum dapat memastikan seluruh proyek pribadi sudah tercakup. Untuk entri sebelumnya, tahun yang dicantumkan mengacu pada pekerjaan yang dibahas pada 2026, bukan klaim bahwa semua proyek selesai pada tahun tersebut. Aqquas memakai semester ganjil 2024/2025 dan StSport memakai semester ganjil 2025/2026 sesuai dokumen masing-masing. Makarapreneur BCC dan ISFEST memakai tahun 2026 sesuai sertifikat. Tahun VinCraft, Knowl Online, Library Database, dan Solaria Database belum dicantumkan karena waktu pengerjaan belum terkonfirmasi.
 
 | No. | Proyek | Status pada website | Fokus |
 | --- | --- | --- | --- |
@@ -21,10 +21,21 @@ Daftar ini memuat 17 proyek dan eksplorasi yang ditampilkan pada website. Daftar
 | 15 | Beelingua Learning Posters | Poster series | Seri tujuh halaman penjelasan grammar bahasa Inggris untuk materi pendampingan. |
 | 16 | Go “FRESH” With NutriSari | BCC semifinalist · 2026 | Proposal strategi bisnis tim Gangnam Style, dua diagram asli, PDF 40 halaman, dan sertifikat Makarapreneur. |
 | 17 | SnapCash | Project management plan | Proyek ISPM Kelompok 3: peran Scrum Master, backlog, enam sprint, WBS, Gantt, anggaran, risiko, komunikasi, dan dua PDF lengkap. |
+| 18 | SAUL | 2nd place · UI/UX ISFEST 2026 | Prototype Team ShowTime: spending awareness, saving goals, reflection, guardrails, shared saving, dan browser extension; enam layar, brosur, dan sertifikat. |
 
 Profil dan pengalaman pilihan telah disesuaikan dari `Profile.pdf` yang dikirim Kennes. Education Coordinator kini mencantumkan Februari 2026–sekarang dan tanggung jawab menjaga kualitas konten edukasi HIMSISFO. Bagian Experience dibatasi pada empat sorotan; About terdiri dari dua paragraf agar proyek menjadi fokus utama.
 
 Tiga proyek utama adalah **Library Database**, **BudgetWise**, dan **Used Car Analysis**. ACCESS dipindahkan ke daftar proyek lainnya; halaman detail dan seluruh asetnya tetap tersedia.
+
+## Bukti SAUL — UI/UX ISFEST 2026
+
+- **Sumber:** keterangan Kennes, `image(20261003-044638).png`, dan [file Figma Showtime — ISFEST](https://www.figma.com/design/mdGSumkW2nn7tirye7Eifl/Showtime---ISFEST?node-id=722-6406). Node yang dikirim adalah halaman Brosur; layar aplikasi berada pada halaman `2:2`.
+- **Pencapaian:** juara 2 UI/UX Information System Festival 2026, ditulis sebagai **2nd Place**, bukan 2nd runner-up. Sertifikat menampilkan juara dan nama lomba; identitas peserta tidak tertulis pada foto sertifikat. Keterlibatan Kennes mengikuti keterangannya dan daftar anggota tim pada pitch deck.
+- **Judul dan tim:** SAUL = Spending Awareness and Understanding Loop. Pitch deck node `820:6408` mencantumkan Team ShowTime: Adrian Aulia Pulungan, Christian Andrew, Kennes Jansen, dan Muhammad Faiz Zaldi. Peran ditulis sebagai anggota tim; pembagian tanggung jawab individual belum diberikan.
+- **Konsep:** membantu orang dewasa muda menyadari pola belanja, menghubungkan pengeluaran dengan tujuan menabung, dan berhenti sejenak sebelum pembelian impulsif. Capsule merupakan rekap/refleksi bulanan, bukan tempat menyimpan pembelian tertunda. Guard dan browser extension dijelaskan sebagai usulan interaksi dalam prototype.
+- **Ekspor Figma:** `home.png` (`198:2763`), `goals.png` (`263:3829`), `capsule.png` (`330:7805`), `guard.png` (`343:8888`), `squads.png` (`433:4695`), `browser-extension.png` (`494:10767`), `brochure-front.png` (`724:975`), dan `brochure-back.png` (`724:1317`). Semua ekspor dan sertifikat disalin tanpa perubahan gambar ke `assets/projects/saul/`.
+- **Batas klaim:** prototype lomba, bukan aplikasi produksi. Data uang, transaksi, profil, dan target di layar adalah contoh. Integrasi aplikasi/payment, fungsi AI, dampak penghematan, dan interaksi prototype belum diverifikasi. Statistik eksternal dalam pitch deck tidak dimasukkan ke ringkasan website.
+- **Penempatan:** sorotan penghargaan di atas BCC, entri arsip nomor 18 yang tertutup saat dimuat, dan `projects/saul.html`. Tiga proyek utama tetap Library Database, BudgetWise, dan Used Car Analysis. Konsep Purchase Decision Companion yang sebelumnya dihapus tidak ditambahkan kembali.
 
 ## Bukti SnapCash ISPM
 
