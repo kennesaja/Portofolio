@@ -2,31 +2,7 @@
 
 Website portofolio statis dengan HTML, CSS, dan JavaScript. Paket ini siap diunggah ke GitHub Pages dan bisa diedit dengan VS Code tanpa instalasi framework.
 
-Versi ini memuat 18 proyek dan eksplorasi: Library Database, BudgetWise, dan Used Car Analysis ditampilkan sebagai tiga kartu utama, sedangkan 15 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Pencapaian juara 2 UI/UX ISFEST 2026 dengan proyek SAUL dan semifinalist Makarapreneur BCC 2026 ditampilkan dalam sorotan khusus setelah tiga kartu utama. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
-
-## Pembaruan SAUL — UI/UX ISFEST 2026
-
-SAUL (Spending Awareness and Understanding Loop) ditambahkan sebagai proyek nomor 18 dan sorotan juara 2 di halaman utama. Halaman `projects/saul.html` memuat enam ekspor layar asli Figma, dua sisi brosur, sertifikat, dan tautan desain. Kennes ditampilkan sebagai anggota Team ShowTime bersama Adrian Aulia Pulungan, Christian Andrew, dan Muhammad Faiz Zaldi. Proyek dijelaskan sebagai konsep/prototype lomba.
-
-Untuk menambahkan pembaruan ini ke website yang sudah ada, ekstrak `kennes-portfolio-isfest-update.zip` lalu unggah seluruh isinya ke akar repository `kennesaja/Portofolio` pada branch `main`. Paket berisi `index.html`, `styles.css`, `README.md`, `PROJECTS.md`, halaman `projects/saul.html`, dan sembilan gambar pada `assets/projects/saul/` (14 file). Pertahankan susunan folder, klik **Commit changes**, dan tunggu deployment GitHub Pages selesai. Gunakan paket terbaru ini setelah pembaruan CV/email sebelumnya agar halaman utama tidak kembali ke versi lama.
-
-## Profil dan pengalaman pilihan
-
-Profil disesuaikan dari PDF LinkedIn `Profile.pdf` yang dikirim Kennes. Bagian pembuka menyebut spesialisasi Business Intelligence; bagian About diringkas menjadi dua paragraf, dengan keanggotaan ISCSC dan pengalaman belajar di BNCC. Empat alat yang ditampilkan adalah Figma, Microsoft Excel, Tableau, dan Oracle SQL Developer.
-
-Experience menampilkan empat sorotan: Education Coordinator, Equipment & Logistics Coordinator untuk LUNAR/NOVA, Online Shop Administrator, dan relawan ISG INSIGHT. Rincian lain dapat dibaca melalui tautan LinkedIn. Seluruh bagian proyek tetap mendahului pengalaman dan profil; PDF LinkedIn tidak ditambahkan sebagai unduhan publik.
-
-Tanggal Education Coordinator (Februari 2026–sekarang) dan ISG INSIGHT (Mei–Juli 2026) mengikuti PDF. Untuk Starindo, durasi tetap sekitar satu tahun sesuai keterangan Kennes dan uraian dalam PDF; rentang otomatis Juli 2023–sekarang pada profil berbeda dari uraian tersebut, sehingga tidak digunakan untuk menyatakan masa kerja tiga tahun atau status kerja saat ini.
-
-## Preview dan unduhan CV
-
-Tautan **Preview CV** di bagian pembuka membuka `cv.html`. Bagian About menyediakan pilihan **Preview** dan **Download PDF** untuk bahasa Inggris serta Indonesia. Halaman preview memiliki pilihan bahasa, dua halaman CV yang bisa dibaca dengan menggulir, tautan untuk memperbesar setiap halaman, serta tombol buka dan unduh PDF. Semua tautan berfungsi tanpa JavaScript.
-
-Kedua PDF memakai CV terbaru yang dikirim Kennes (`Kennes_Jansen_CV_English(5).pdf` dan `Kennes_Jansen_CV_Indonesia(5).pdf`), disalin tanpa perubahan isi. Empat gambar WebP merupakan hasil render langsung dari dua halaman masing-masing PDF pada 144 dpi, sehingga preview tidak bergantung pada penampil PDF bawaan browser. PDF asli tetap tersedia untuk membaca teks dan mengunduh dokumen.
-
-Untuk memperbarui CV nanti, ganti PDF dengan nama yang sama dan buat ulang kedua gambar preview untuk bahasa tersebut agar tampilan dan unduhannya selalu sesuai. Perbarui juga parameter versi `?v=` pada tautan PDF dan gambar di `index.html`, `cv.html`, serta `cv-indonesia.html` agar browser meminta berkas terbaru. Jika jumlah halaman berubah, sesuaikan halaman HTML preview juga.
-
-Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu unggah seluruh isinya: `index.html`, `styles.css`, `README.md`, `cv.html`, `cv-indonesia.html`, dan folder `assets` ke akar repository `kennesaja/Portofolio` pada branch `main`. Pertahankan struktur `assets/cv/`; unggah isi ZIP, bukan file ZIP. Paket memuat 11 file, termasuk kedua PDF dan empat gambar preview. Klik **Commit changes** dan tunggu deployment GitHub Pages selesai.
+Versi ini memuat 17 proyek dan eksplorasi: tiga proyek utama ditampilkan sebagai kartu, sedangkan 14 proyek lainnya berada pada daftar yang bisa dibuka satu per satu. Daftar lengkap dan statusnya tercantum di `PROJECTS.md`.
 
 ## Isi file
 
@@ -36,16 +12,6 @@ Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu ungg
 | `styles.css` | Warna, tipografi, tata letak, dan tampilan untuk HP serta desktop. |
 | `main.js` | Penanda navigasi untuk bagian halaman yang sedang dilihat. |
 | `assets/kennes-jansen.jpeg` | Foto Kennes di bagian pembuka. |
-| `assets/cv/kennes-jansen-cv-english.pdf` | CV terbaru dalam bahasa Inggris, 2 halaman. |
-| `assets/cv/kennes-jansen-cv-indonesia.pdf` | CV terbaru dalam bahasa Indonesia, 2 halaman. |
-| `cv.html` | Halaman preview CV Inggris dengan pilihan bahasa serta buka/unduh PDF. |
-| `cv-indonesia.html` | Halaman preview CV Indonesia dengan pilihan bahasa serta buka/unduh PDF. |
-| `assets/cv/english-page-1.webp`, `english-page-2.webp` | Render asli dua halaman CV Inggris untuk preview. |
-| `assets/cv/indonesia-page-1.webp`, `indonesia-page-2.webp` | Render asli dua halaman CV Indonesia untuk preview. |
-| `projects/access.html` | Galeri sembilan layar ACCESS dan tautan prototype Figma. |
-| `assets/projects/access/` | Sembilan ekspor PNG asli dari Figma ACCESS. |
-| `projects/budgetwise.html` | Presentasi PDF BudgetWise, screenshot dashboard, dan mockup awal. |
-| `assets/projects/budgetwise/` | Presentasi 14 slide versi ringan dan tiga gambar asli dari PDF. |
 | `projects/used-car-analysis.html` | Proyek Data Visualization: dashboard, galeri grafik, proses, cakupan data, serta tautan Tableau dan video. |
 | `assets/projects/used-car-analysis/` | Delapan screenshot asli dashboard dan chart dari laporan. |
 | `projects/aqquas.html` | Halaman detail Aqquas dengan galeri wireframe dan dokumentasi UX. |
@@ -60,71 +26,20 @@ Untuk pembaruan CV ini saja, ekstrak `kennes-portfolio-cv-update.zip`, lalu ungg
 | `assets/projects/solaria-database/` | Lima gambar sumber: ERD, model logis, studi dependensi, trigger, dan mockup. |
 | `projects/stsport.html` | Studi kasus ISAD dengan galeri antarmuka, analisis masalah, dan diagram sistem. |
 | `assets/projects/stsport/` | Dua puluh gambar asli dari laporan StSport: 12 layar dan 8 diagram. |
-| `projects/makarapreneur-bcc.html` | Studi kasus Go “FRESH” With NutriSari, sertifikat semifinalist, dan proposal lengkap 40 halaman. |
-| `assets/projects/makarapreneur-bcc/` | Sertifikat PNG, proposal PDF, dan dua diagram JPEG asli dari proposal. |
-| `projects/snapcash.html` | Proyek ISPM SnapCash: peran Scrum Master, rencana proyek, WBS, Gantt, presentasi 65 slide, dan laporan 51 halaman. |
-| `assets/projects/snapcash/` | Dua PDF asli serta gambar WBS dan Gantt dari presentasi. |
-| `projects/saul.html` | Proyek UI/UX SAUL, juara 2 ISFEST 2026: galeri desain, brosur, anggota tim, dan sertifikat. |
-| `assets/projects/saul/` | Enam layar dan dua sisi brosur dari Figma, serta sertifikat juara 2 asli. |
 | `.nojekyll` | Menandai sumber sebagai file statis yang tidak perlu diproses Jekyll. |
 | `PROJECTS.md` | Inventaris proyek untuk memeriksa isi dan menambahkan informasi yang masih kurang. |
 
-Seluruh 18 ringkasan proyek pada halaman utama dimulai dalam keadaan tertutup. Klik judul/kartu atau tanda **+** untuk membuka detail; klik lagi untuk menutupnya. Ringkasan memakai elemen HTML `details` dan `summary`, sehingga juga bisa dibuka melalui keyboard dan tetap berfungsi meskipun JavaScript tidak aktif. Tombol **Say hello** mengarah ke bagian kontak yang berisi Instagram, WhatsApp, LinkedIn, dan email.
+Ringkasan proyek memakai elemen HTML `details`, sehingga tetap bisa dibuka meskipun JavaScript tidak aktif. Tombol kontak membuka aplikasi email dengan alamat yang sudah diisi.
 
 Foto pada halaman pembuka memakai file yang diunggah Kennes. Tampilannya diatur melalui `.hero-portrait` di `styles.css`, dengan bingkai portrait dan posisi foto yang mengutamakan wajah. Untuk mengganti foto nanti, ganti file `assets/kennes-jansen.jpeg` atau perbarui jalur `src` dan ukuran gambar pada `index.html`.
 
-## Kontak portofolio
-
-| Kanal | Ditampilkan | Tautan |
-| --- | --- | --- |
-| Instagram | @kenneeeees | https://www.instagram.com/kenneeeees/ |
-| WhatsApp | 0878 7120 5026 | https://wa.me/6287871205026 |
-| LinkedIn | Kennes Jansen | https://www.linkedin.com/in/kennes-jansen |
-| Email | kennesjansen6@gmail.com | mailto:kennesjansen6@gmail.com |
-
-Instagram dan nomor WhatsApp memakai informasi yang diberikan Kennes. Nomor WhatsApp ditampilkan dengan format lokal; tautannya menggunakan kode negara Indonesia `62` menggantikan angka `0` awal. Tautan membuka WhatsApp tanpa mengirim pesan otomatis. Semua pilihan kontak berfungsi sebagai tautan HTML dan tidak memerlukan JavaScript.
-
-## Makarapreneur BCC 2026
-
-Sertifikat `31.png` mencantumkan **Kennes Jansen** sebagai **Semifinalist** pada **Undergraduate Business Case Competition 2026**, diselenggarakan **Makarapreneur HIPMI PT UI** dan tertanggal **19 Mei 2026**. Sorotan pencapaian berada setelah tiga kartu proyek utama dan menaut ke halaman studi kasus serta gambar sertifikat ukuran penuh.
-
-Proposal **Go “FRESH” With NutriSari** berasal dari tim **Gangnam Style**, sesuai ejaan pada sampul, dengan anggota Kennes Jansen, Adrian Aulia, dan Faiz Zaldi. Peran Kennes ditulis sebagai anggota tim; tidak ada pembagian tugas individual yang ditambahkan. Ringkasan mencakup survei awal 87 responden dan survei lanjutan 51 responden, observasi, analisis pasar, lima strategi FRESH, serta rencana implementasi. Dua survei tersebut tidak dijumlahkan sebagai responden unik.
-
-Halaman detail menyediakan dua diagram asli dari halaman 14 dan 20, gambar sertifikat, serta penampil PDF dengan tombol buka dan unduh. PDF 40 halaman dan sertifikat disalin tanpa perubahan. Strategi dan proyeksi ditulis sebagai usulan tim; pencapaian kompetisinya adalah semifinalist. Semua aset memakai jalur relatif agar dapat dibuka dari subfolder GitHub Pages.
-
-## Hasil proyek SnapCash
-
-SnapCash ditambahkan berdasarkan `Project ISPM SnapCash - Group 3.pdf` (51 halaman) dan `PPT SnapCash - Group 3.pdf` (65 slide). Proyek ini berasal dari mata kuliah **Information Systems Project Management**, Kelompok 3, semester genap 2025/2026. Sistem yang direncanakan menghubungkan transaksi POS, inventaris, supplier, laporan keuangan, dan analitik untuk UMKM, khususnya bisnis makanan dan minuman.
-
-Charter mencantumkan **Kennes Jansen sebagai Scrum Master**. Risk ownership menugaskan Kennes memantau risiko keterlambatan sprint, kecukupan pengujian, dan beban kerja tim. WBS juga mencantumkan tugas desain database, kebutuhan fungsional, inventaris, low-stock alert, dan supplier. Peran Scrum Master dan penugasan WBS dijelaskan sesuai bagian dokumen masing-masing; website tidak menyatakan semua modul sudah diimplementasikan oleh Kennes.
-
-Halaman proyek menampilkan dua gambar asli WBS dan Gantt, ringkasan 18 backlog item dan enam sprint, penjadwalan, rencana anggaran, manajemen risiko, dan komunikasi stakeholder. Anggaran serta proyeksi bisnis diberi konteks sebagai rencana. PDF dapat dibaca langsung, dibuka di tab baru, atau diunduh; dua berkas PDF disalin tanpa perubahan. Entri berada pada urutan 17 dalam daftar proyek.
-
 ## Menambah atau memperbarui proyek
 
-Ringkasan proyek ditulis langsung di `index.html`, sehingga tidak memerlukan database atau proses build. Halaman detail ACCESS, BudgetWise, Used Car Analysis, Aqquas, VinCraft, Knowl Online, Library Database, Solaria Database, dan StSport berada di folder `projects`. Tiga kartu utama berada di bagian `project-grid`; daftar lainnya berada di bagian `archive-list`.
+Ringkasan proyek ditulis langsung di `index.html`, sehingga tidak memerlukan database atau proses build. Halaman detail Used Car Analysis, Aqquas, VinCraft, Knowl Online, Library Database, Solaria Database, dan StSport berada di folder `projects`. Tiga kartu utama berada di bagian `project-grid`; daftar lainnya berada di bagian `archive-list`.
 
 Untuk menambahkan proyek pada daftar, salin satu blok `<details class="archive-project">`, lalu ubah ID, nomor, judul, deskripsi, status, kategori, dan isi rinciannya. Gunakan ID unik, misalnya `project-nama-proyek`. Isi tahun, peran, hasil, dan tautan hanya dengan informasi yang sesuai proyekmu. Konsep, rencana, dan pekerjaan yang sedang berlangsung sudah diberi status tersendiri.
 
 Nama PRIMETIME pada dokumen yang diperiksa mengacu pada rancangan ACCESS. Karena itu, versi ini menampilkannya dalam satu entri ACCESS. Jika ada proyek PRIMETIME yang berbeda, tambahkan sebagai entri terpisah menggunakan materi proyek tersebut.
-
-## Hasil proyek ACCESS
-
-ACCESS berada pada daftar proyek lainnya dan memiliki sembilan layar berwarna yang diekspor langsung dari Figma: halaman utama, pencarian destinasi, pendamping, pilihan peran, kebutuhan mobilitas, laporan aksesibilitas, keluarga, profil caregiver, dan dashboard pendamping. Tiga layar utama ditampilkan langsung; layar lainnya bisa dibuka dalam dua galeri tambahan. Gambar bisa dibuka pada ukuran aslinya, termasuk ketika JavaScript tidak aktif.
-
-Tombol **Open prototype in Figma** memakai tautan yang diberikan Kennes. Berbagi file di Figma menentukan akses pengunjung; akses tamu dan alur prototype belum diuji. Galeri gambar pada website menggunakan file lokal sehingga tidak bergantung pada tautan gambar sementara Figma. Nama, rating, harga, dan skor pada desain merupakan contoh isi prototype.
-
-## Hasil proyek BudgetWise
-
-BudgetWise memakai `Dashboard Data Modelling(2).pdf` saja, sesuai pilihan terbaru Kennes. Halaman detail menampilkan presentasi lengkap 14 slide dengan tombol buka PDF pada tab baru dan unduh. Jika browser tidak menampilkan PDF di dalam halaman, kedua tombol tersebut tetap tersedia.
-
-Dua screenshot dashboard dan satu mockup awal diekstrak langsung dari PDF untuk galeri. PDF publik dioptimalkan agar lebih ringan, dengan jumlah, urutan, dimensi, dan teks halaman tetap sama. Gambar mengikuti resolusi materi sumber. File unggahan asli, workbook Excel, serta laporan lain tidak diubah.
-
-Presentasi dan screenshot mendokumentasikan hasil Excel; dropdown dan slicer di dalamnya berupa gambar. Pembaruan ini tidak membuat ulang dashboard Excel sebagai aplikasi web. Sumber dan cakupan lengkap tercantum di `PROJECTS.md`.
-
-## Memasang paket pembaruan
-
-Jika memakai `kennes-portfolio-update.zip`, ekstrak ZIP lalu unggah seluruh isi hasil ekstrak, termasuk folder `assets` dan `projects`, ke halaman utama repository portofolio. Pertahankan nama serta struktur folder dan simpan dengan **Commit changes**. Paket ini memuat Library Database sebagai proyek utama, galeri ACCESS pada daftar proyek lainnya, presentasi BudgetWise, serta revisi daftar proyek sebelumnya; file proyek lain tetap diperlukan dari unggahan yang sudah ada.
 
 ## Hasil proyek Used Car Analysis
 
